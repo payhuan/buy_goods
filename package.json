@@ -2,5 +2,14 @@
   "name": "little-market-counting",
   "private": true,
   "version": "1.0.0",
-  "scripts": { "test": "node --test source/game.test.cjs", "start": "python serve.py --open" }
+  "scripts": {
+    "test": "node --test source/game.test.cjs",
+    "start": "python serve.py --open"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "4.5.1",
+    "@gltf-transform/extensions": "4.5.1",
+    "@gltf-transform/functions": "4.5.1",
+    "meshoptimizer": "1.3.0"
+  }
 }

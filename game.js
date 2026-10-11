@@ -10,18 +10,15 @@
       get stars() { return earned.size; },
       hasStar(id) { return earned.has(id); },
       foundIn(area) { return products.filter(p => p.zone === area && earned.has(p.id)).length; },
-      enter() { zone = '百货区'; page = '百货过渡'; },
+      enter() { zone = '百货区'; page = '百货区'; },
       next() {
-        if (page === '入口') { zone = '百货区'; page = '百货过渡'; }
-        else if (page === '百货过渡') { page = zone = '百货区'; }
-        else if (page === '百货区') { zone = '食品区'; page = '食品过渡'; }
-        else if (page === '食品过渡') { page = zone = '食品区'; }
+        if (page === '入口') { zone = '百货区'; page = '百货区'; }
+        else if (page === '百货区') { zone = '食品区'; page = '食品区'; }
         else if (page === '食品区') { page = '结束'; }
       },
       back() {
         if (page === '结束') { page = zone = '食品区'; }
         else if (page === '食品区') { page = zone = '百货区'; }
-        else if (page === '食品过渡') { page = zone = '百货区'; }
         else if (page === '百货区') { page = '入口'; }
         else { page = '入口'; }
       },

@@ -1,4 +1,4 @@
-/* Shopping introductions play only while moving forward. */
+/* Four-page classroom shopping activity. */
 const products = MARKET_PRODUCTS;
 const game = createMarketGame(products);
 const goods = document.querySelector('#goods');
@@ -83,13 +83,6 @@ function renderGoods() {
 async function renderPage() {
   const token = ++sceneRequest, page = game.page, inArea = ['百货区', '食品区'].includes(page);
   clearTimeout(pageTimer);
-  const inTransition = page === '百货过渡' || page === '食品过渡';
-  document.querySelector('#transition').hidden = !inTransition;
-  if (inTransition) {
-    document.querySelector('#transition-title').textContent = game.zone;
-    document.querySelector('#transition-products').textContent = game.zone === '百货区' ? '牙膏、水杯、铅笔和电池……' : '酸奶、彩虹糖、鸡蛋和水果……';
-    pageTimer = setTimeout(() => { if (game.page === page) { game.next(); renderPage(); } }, 1500);
-  }
   document.body.dataset.page = page; document.body.dataset.renderer = 'fallback';
   document.querySelector('#entrance').hidden = page !== '入口'; document.querySelector('#ending').hidden = page !== '结束';
   document.querySelector('.hud').hidden = !inArea; document.querySelector('#area-sign').hidden = !inArea;
@@ -112,7 +105,7 @@ async function renderPage() {
     for (const { choose } of cards.values()) { choose.classList.remove('fallback-product'); choose.querySelector('img').hidden = true; }
   } catch (_) { /* Continuous shelf fallback remains usable if WebGL or asset loading fails. */ }
 }
-for (const [selector, action] of [['#enter', () => game.enter()], ['#transition-enter', () => game.next()], ['#next-page', () => game.next()], ['#previous-page', () => game.back()], ['#replay', () => game.restart()], ['#return-food', () => game.back()]]) {
+for (const [selector, action] of [['#enter', () => game.enter()], ['#next-page', () => game.next()], ['#previous-page', () => game.back()], ['#replay', () => game.restart()], ['#return-food', () => game.back()]]) {
   document.querySelector(selector).addEventListener('click', () => { action(); renderPage(); });
 }
 document.querySelector('#sound').addEventListener('click', event => {
@@ -124,7 +117,7 @@ document.querySelector('#fullscreen').addEventListener('click', async () => {
 });
 renderPage();
 (async () => {
-  try { const module = await import('./scene.js?v=20261011-supplied-rolls'); scene = await module.createMarketScene(document.querySelector('#scene-stage'), products, layoutGoods); renderPage(); }
+  try { const module = await import('./scene.js?v=20261012-compressed'); scene = await module.createMarketScene(document.querySelector('#scene-stage'), products, layoutGoods); renderPage(); }
   catch (_) { /* Local file opening also supports the four pages and shelf images. */ }
 })();
 

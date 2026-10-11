@@ -14,10 +14,12 @@ modules = {
     'market-buffer-utils':'vendor/BufferGeometryUtils.js',
     'market-gltf-loader':'vendor/GLTFLoader.js',
     'market-scene':'scene.js',
+    'market-meshopt':'vendor/meshopt_decoder.mjs',
 }
 aliases = {
     'three':'market-three', './three.core.js':'market-three-core',
     './BufferGeometryUtils.js':'market-buffer-utils',
+    './vendor/meshopt_decoder.mjs':'market-meshopt',
     './vendor/three.module.js':'market-three', './vendor/GLTFLoader.js':'market-gltf-loader',
 }
 module_sources = {}

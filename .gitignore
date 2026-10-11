@@ -12,3 +12,4 @@ verification/
 publish/*.html
 publish/资源依赖清单.json
 publish/THREE-LICENSE.txt
+node_modules/

@@ -1,5 +1,6 @@
 import * as THREE from './vendor/three.module.js';
 import { GLTFLoader } from './vendor/GLTFLoader.js';
+import { MeshoptDecoder } from './vendor/meshopt_decoder.mjs';
 
 // The goods are actual GLB objects resting on one continuous, two-tier rack.
 // DOM hit areas and shelf-edge labels are projected from the same camera.
@@ -37,7 +38,7 @@ export async function createMarketScene(container, products, onLayout) {
   pegTexture.wrapS = pegTexture.wrapT = THREE.RepeatWrapping; pegTexture.repeat.set(4, 2);
   const backing = new THREE.MeshStandardMaterial({ map: pegTexture, roughness: .88 });
   const rack = new THREE.Group(), aisle = new THREE.Group(); scene.add(rack, aisle);
-  const models = new Map(), shown = new Map(), loader = new GLTFLoader();
+  const models = new Map(), shown = new Map(), loader = new GLTFLoader().setMeshoptDecoder(MeshoptDecoder);
   let page = '入口', request = 0, frame = 0, animation = 0, disposed = false;
   const shakes = new Map();
   const pops = new Map();

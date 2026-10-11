@@ -14,7 +14,7 @@
     { id: 'apples', name: '苹果', zone: '食品区', perPackage: 1, stock: 4, unit: '个', price: 4, note: '脆甜红苹果 · 按个计价' },
   ];
   root.MARKET_PRODUCTS = products;
-  root.MARKET_ASSET_VERSION = '20261011-supplied-rolls';
+  root.MARKET_ASSET_VERSION = '20261012-compressed';
   root.marketAssetUrl = path => root.MARKET_EMBEDDED_ASSETS?.[path] || `${path}?v=${root.MARKET_ASSET_VERSION}`;
   if (typeof module !== 'undefined') module.exports = products;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

@@ -3,10 +3,16 @@ from pathlib import Path
 import json
 import math
 import re
+import sys
+import argparse
 import bpy
 from mathutils import Vector
 
 root=Path(__file__).resolve().parents[1]
+parser=argparse.ArgumentParser()
+parser.add_argument('--models-dir',type=Path,default=Path('verification/decoded-models'))
+args=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
+models_dir=root/args.models_dir
 patterns={
     'rolls':r'^Roll_\d+$','mugs':r'^Mug \d+ hollow ceramic body',
     'toothpaste':r'^Toothpaste box \d+','brushes':r'^Brush \d+\.\d+ rounded handle',
@@ -18,7 +24,7 @@ patterns={
 results=[]
 for item in json.loads((root/'assets/catalog.json').read_text(encoding='utf-8')):
     bpy.ops.wm.read_factory_settings(use_empty=True)
-    bpy.ops.import_scene.gltf(filepath=str(root/'assets'/item['model']))
+    bpy.ops.import_scene.gltf(filepath=str(models_dir/Path(item['model']).name))
     meshes=[o for o in bpy.context.scene.objects if o.type=='MESH']
     counted=[o for o in meshes if re.search(patterns[item['id']],o.name)]
     finite=all(math.isfinite(value) for o in meshes for v in o.data.vertices for value in v.co)

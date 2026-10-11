@@ -5,13 +5,11 @@ const createGame = require('../game.js');
 const fs = require('node:fs');
 const path = require('node:path');
 
-test('six pages include both introductions and allow incomplete progress and replay', () => {
+test('four pages omit introductions and allow incomplete progress and replay', () => {
   const game = createGame(products);
   assert.equal(game.page, '入口');
-  game.enter(); assert.equal(game.page, '百货过渡');
-  game.next(); assert.equal(game.page, '百货区');
+  game.enter(); assert.equal(game.page, '百货区');
   game.select('pencils'); assert.equal(game.foundIn('百货区'), 1);
-  game.next(); assert.equal(game.page, '食品过渡');
   game.next(); assert.equal(game.page, '食品区');
   game.next(); assert.equal(game.page, '结束');
   game.back(); assert.equal(game.page, '食品区');
