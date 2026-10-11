@@ -2,10 +2,9 @@
 const products = MARKET_PRODUCTS;
 const game = createMarketGame(products);
 const goods = document.querySelector('#goods');
-const dialog = document.querySelector('#inspect');
 const cards = new Map();
 document.querySelector('#entrance-background').style.backgroundImage = `url("${marketAssetUrl('assets/images/entrance-background.jpg')}")`;
-let audio, muted = false, inspected, viewer, viewRequest = 0, scene, sceneRequest = 0, pageTimer;
+let audio, muted = false, scene, sceneRequest = 0, pageTimer;
 
 function sound(correct) {
   if (muted) return;
@@ -91,7 +90,6 @@ async function renderPage() {
     document.querySelector('#transition-products').textContent = game.zone === '百货区' ? '牙膏、水杯、铅笔和电池……' : '酸奶、彩虹糖、鸡蛋和水果……';
     pageTimer = setTimeout(() => { if (game.page === page) { game.next(); renderPage(); } }, 1500);
   }
-  if (dialog.open) dialog.close();
   document.body.dataset.page = page; document.body.dataset.renderer = 'fallback';
   document.querySelector('#entrance').hidden = page !== '入口'; document.querySelector('#ending').hidden = page !== '结束';
   document.querySelector('.hud').hidden = !inArea; document.querySelector('#area-sign').hidden = !inArea;
@@ -124,26 +122,6 @@ document.querySelector('#sound').addEventListener('click', event => {
 document.querySelector('#fullscreen').addEventListener('click', async () => {
   try { if (document.fullscreenElement) await document.exitFullscreen(); else await document.documentElement.requestFullscreen(); } catch (_) { }
 });
-function inspect(item) { inspected = item; document.querySelector('#inspect-title').textContent = item.name;
-  document.querySelector('#inspect-image').alt = `${item.name}放大图`; dialog.showModal(); setView('main'); }
-async function setView(view) {
-  const request = ++viewRequest; viewer?.dispose(); viewer = null;
-  const image = document.querySelector('#inspect-image'), stage = document.querySelector('#model-stage');
-  stage.replaceChildren(); stage.hidden = view !== '3d'; image.hidden = view === '3d'; document.querySelector('#viewer-error').hidden = true;
-  document.querySelectorAll('[data-view]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.view === view)));
-  if (view !== '3d') { image.src = view === 'main' ? marketAssetUrl(`assets/images/${inspected.id}.png`) : marketAssetUrl(`assets/diagnostics/${inspected.id}-${view}.png`); return; }
-  try {
-    const module = await import('./viewer.js?v=20261011-supplied-rolls'); if (request !== viewRequest || !dialog.open) return;
-    const instance = await module.openViewer(stage, marketAssetUrl(`assets/models/${inspected.id}.glb`));
-    if (request !== viewRequest || !dialog.open) { instance.dispose(); return; } viewer = instance;
-  } catch (_) {
-    if (request !== viewRequest) return; stage.hidden = true; image.hidden = false; image.src = marketAssetUrl(`assets/images/${inspected.id}.png`);
-    document.querySelector('#viewer-error').hidden = false;
-  }
-}
-document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => setView(button.dataset.view)));
-document.querySelector('#close-inspect').addEventListener('click', () => dialog.close());
-dialog.addEventListener('close', () => { viewRequest++; viewer?.dispose(); viewer = null; document.querySelector('#model-stage').replaceChildren(); });
 renderPage();
 (async () => {
   try { const module = await import('./scene.js?v=20261011-supplied-rolls'); scene = await module.createMarketScene(document.querySelector('#scene-stage'), products, layoutGoods); renderPage(); }

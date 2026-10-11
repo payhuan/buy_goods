@@ -36,8 +36,8 @@ test('standalone publish file embeds every declared model and image without exte
   const html = fs.readFileSync(path.join(publish,'逛超市_超喵单文件版.html'),'utf8');
   const embedded = JSON.parse(html.match(/MARKET_EMBEDDED_ASSETS=(\{[^\n]+\});/)[1]);
   assert.equal(report.external_runtime_files, 0);
-  assert.equal(Object.keys(embedded).length, 61);
-  assert.equal(report.images, 49);
+  assert.equal(Object.keys(embedded).length, 25);
+  assert.equal(report.images, 13);
   assert.match(embedded['assets/images/entrance-background.jpg'], /^data:image\/jpeg;base64,/);
   assert.equal(report.assets.filter(a => a.path.endsWith('.glb')).length, 12);
   for (const asset of report.assets) {

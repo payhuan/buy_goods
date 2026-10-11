@@ -278,7 +278,7 @@ def marker(index, loc, package=1):
 def rolls():
     # Keep the supplied model intact; its paper ends already face Blender -Y.
     before=set(bpy.data.objects)
-    bpy.ops.import_scene.gltf(filepath=str(ROOT/'resources/rolls-supplied.glb'))
+    bpy.ops.import_scene.gltf(filepath=str(ROOT/'assets/models/rolls.glb'))
     for obj in set(bpy.data.objects)-before:
         for collection in list(obj.users_collection):
             collection.objects.unlink(obj)
@@ -641,7 +641,7 @@ for slug,name,zone,per,stock,unit,price,build in catalog:
     bpy.ops.export_scene.gltf(filepath=str(OUT/'models'/f'{slug}.glb'), export_format='GLB',
                               use_selection=True, export_cameras=False, export_lights=False)
     if slug=='rolls':
-        shutil.copy2(ROOT/'resources/rolls-supplied.glb',OUT/'models/rolls.glb')
+        shutil.copy2(ROOT/'assets/models/rolls.glb',OUT/'models/rolls.glb')
     # Keep all asset collections in a single editable catalogue blend.
     records.append(dict(id=slug,name=name,zone=zone,perPackage=per,stock=stock,unit=unit,price=price,
                         correct=per==10,dimensions=[round(v,5) for v in hi-lo],

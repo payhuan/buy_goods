@@ -13,15 +13,12 @@ modules = {
     'market-three':'vendor/three.module.js',
     'market-buffer-utils':'vendor/BufferGeometryUtils.js',
     'market-gltf-loader':'vendor/GLTFLoader.js',
-    'market-orbit-controls':'vendor/OrbitControls.js',
     'market-scene':'scene.js',
-    'market-viewer':'viewer.js',
 }
 aliases = {
     'three':'market-three', './three.core.js':'market-three-core',
     './BufferGeometryUtils.js':'market-buffer-utils',
     './vendor/three.module.js':'market-three', './vendor/GLTFLoader.js':'market-gltf-loader',
-    './vendor/OrbitControls.js':'market-orbit-controls',
 }
 module_sources = {}
 for key, path in modules.items():
@@ -34,7 +31,6 @@ catalog = json.loads((root/'assets/catalog.json').read_text(encoding='utf-8'))
 assets, inventory = {}, []
 for item in catalog:
     paths = [f"assets/models/{item['id']}.glb", f"assets/images/{item['id']}.png"]
-    paths += [f"assets/diagnostics/{item['id']}-{view}.png" for view in ('top','front','side')]
     for path in paths:
         content = (root/path).read_bytes()
         mime = 'model/gltf-binary' if path.endswith('.glb') else 'image/png'
@@ -61,15 +57,14 @@ html = re.sub(r'<link rel="stylesheet" href="[^"]+">',lambda m:'<style>'+css+'</
 def inline_script(match):
     source = (root/match[1].split('?')[0]).read_text(encoding='utf-8-sig')
     source = re.sub(r"import\('\./scene\.js[^']*'\)","import('market-scene')",source)
-    source = re.sub(r"import\('\./viewer\.js[^']*'\)","import('market-viewer')",source)
     assert '</script' not in source.lower()
     return '<script>\n'+source+'\n</script>'
 html = re.sub(r'<script src="([^"]+)"></script>',inline_script,html)
 target = output/'逛超市_超喵单文件版.html'
 target.write_text(html,encoding='utf-8')
-report = {'format':'standalone HTML','models':12,'images':49,'embedded_modules':list(modules),
+report = {'format':'standalone HTML','models':12,'images':13,'embedded_modules':list(modules),
           'external_runtime_files':0,'html_bytes':target.stat().st_size,'assets':inventory,
           'runtime':'Modern browser with WebGL, import maps and Blob modules; audio synthesized locally.'}
 (output/'资源依赖清单.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 (output/'THREE-LICENSE.txt').write_text((root/'vendor/THREE-LICENSE.txt').read_text(encoding='utf-8'),encoding='utf-8')
-print(f'{target.name}: {target.stat().st_size/1024/1024:.1f} MB, 12 models + 49 images embedded')
+print(f'{target.name}: {target.stat().st_size/1024/1024:.1f} MB, 12 models + 13 images embedded')

@@ -34,6 +34,7 @@ for item in json.loads((root/'assets/catalog.json').read_text(encoding='utf-8'))
                     'dimensions':dimensions,'finite':finite,'embedded_resources':textures_ok})
 report={'blender':bpy.app.version_string,'method':'Fresh scene for each GLB; count principal meshes and measure imported bounding boxes.',
         'status':'pass' if all(r['status']=='pass' for r in results) else 'fail','checks':results}
+(root/'verification').mkdir(exist_ok=True)
 (root/'verification/individual-assets.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 if report['status']!='pass':
     raise RuntimeError('Individual assets failed; inspect report')
