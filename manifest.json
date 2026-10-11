@@ -1,0 +1,657 @@
+{
+  "schema_version": 2,
+  "quality": {
+    "purpose": "teaching",
+    "completion": "final"
+  },
+  "requirements": {
+    "description": "Twelve supermarket products with exact countable quantities, realistic product forms and unobstructed labels.",
+    "deliverables": [
+      "source",
+      "blend",
+      "glb",
+      "preview"
+    ],
+    "units": "metres",
+    "reference_relation": "Four user-provided screenshots inform the entrance, department racks and ending; webpage not scraped.",
+    "simplifications": [
+      "Transparent bags expose every unit; eggs and yogurt retain low trays.",
+      "GLB omits procedural micro-bump."
+    ],
+    "reference": {
+      "mode": "adapt",
+      "artifact_ids": [
+        "reference.battery",
+        "reference.department",
+        "reference.food",
+        "reference.candy",
+        "reference.toothpaste_real",
+        "reference.rolls_real",
+        "reference.apple_real",
+        "reference.brush_real",
+        "reference.water_real",
+        "reference.toothpaste_atlas",
+        "reference.rolls_handle"
+      ],
+      "allowed_changes": [
+        {
+          "quote": "牙刷手柄的朝向错了，应该朝相机，现在是朝左，弯曲角度没问题；用这个贴图；给卷纸的包装袋的一端增加提手",
+          "source": "User request, 2026-10-11"
+        },
+        {
+          "quote": "牙刷本体按这张参考图重新建模，包装和数量不变；矿泉水按这个参考图重新建模；整体标签只保留物品名、价格",
+          "source": "User request, 2026-10-11"
+        },
+        {
+          "quote": "电池重新建模，参考图三",
+          "source": "User request, 2026-10-11"
+        },
+        {
+          "quote": "两个购物页面之前各加上一个过渡页，参考我给出的图一图二两张图片",
+          "source": "User request, 2026-10-11"
+        },
+        {
+          "quote": "彩虹糖参考这张图片建模",
+          "source": "User request, 2026-10-11"
+        },
+        {
+          "quote": "增加彩虹糖每包的厚度，增加彩虹糖红色的饱和度，减少透明袋宽度，使其左右两边更靠近彩虹糖左右两边",
+          "source": "User request, 2026-10-11"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "toothpaste_atlas",
+          "target": "Supplied red-green carton atlas with Chinese toothpaste title replacing English, mapped onto four carton faces and ends.",
+          "basis": "User unfolded toothpaste texture",
+          "knowledge": "visible",
+          "method": "visual"
+        },
+        {
+          "id": "rolls_handle",
+          "target": "Latest supplied model.glb supersedes previous roll geometry: retain its left-end two-hole handle and transparent packaging.",
+          "basis": "User paper-bag handle photo",
+          "knowledge": "visible",
+          "method": "visual"
+        },
+        {
+          "id": "toothpaste_real",
+          "target": "Four slim retail cartons and folded edges; latest supplied red-green texture supersedes the earlier cyan brand print.",
+          "basis": "User toothpaste photo",
+          "knowledge": "visible",
+          "method": "visual"
+        },
+        {
+          "id": "rolls_real",
+          "target": "Two rows of five ivory paper ends, hollow cardboard cores, fine winding lines and clear wrinkled film.",
+          "basis": "User paper photo",
+          "knowledge": "visible",
+          "method": "visual"
+        },
+        {
+          "id": "apple_real",
+          "target": "Broad shoulders, recessed stem, uneven red and golden skin, lenticels and a natural leaf.",
+          "basis": "User apple photo; source watermark excluded from original texture",
+          "knowledge": "visible",
+          "method": "visual"
+        },
+        {
+          "id": "brush_real",
+          "target": "White curved handle with long blue, lilac or green grip insert, narrow coloured neck, oval head and dense white tuft rows. Two six-brush boards preserved.",
+          "basis": "User toothbrush photo",
+          "knowledge": "visible",
+          "method": "visual"
+        },
+        {
+          "id": "water_real",
+          "target": "Twelve clear ribbed bottles with red caps, white upper labels and red lower labels inside fitted shrink film; Chinese print.",
+          "basis": "User mineral water photo",
+          "knowledge": "visible",
+          "method": "visual"
+        },
+        {
+          "id": "battery_card",
+          "target": "Narrow rounded white retail card, hanger hole, orange corner marker and Chinese quantity above cells.",
+          "basis": "User image three",
+          "knowledge": "visible",
+          "method": "visual"
+        },
+        {
+          "id": "battery_rows",
+          "target": "Ten vertical cells in two rows of five, dark bodies and orange upper bands.",
+          "basis": "User image three",
+          "knowledge": "visible",
+          "method": "visual"
+        },
+        {
+          "id": "battery_blister",
+          "target": "Transparent fitted blister exposes all ten cells.",
+          "basis": "User image three",
+          "knowledge": "visible",
+          "method": "visual"
+        },
+        {
+          "id": "department_transition",
+          "target": "Dark full-page background, centered white department title and muted Chinese task lines.",
+          "basis": "User image two",
+          "knowledge": "visible",
+          "method": "visual"
+        },
+        {
+          "id": "food_transition",
+          "target": "Dark full-page background, centered white food title and muted Chinese task lines.",
+          "basis": "User image one",
+          "knowledge": "visible",
+          "method": "visual"
+        },
+        {
+          "id": "candy_layout",
+          "target": "Ten distinct packets in two columns and five rows with visible gaps.",
+          "basis": "User candy image",
+          "knowledge": "visible",
+          "method": "visual"
+        },
+        {
+          "id": "candy_wrappers",
+          "target": "Horizontal red packets with Chinese yellow title, heat sealed rims and multicoloured candy graphics.",
+          "basis": "User candy image",
+          "knowledge": "visible",
+          "method": "visual"
+        },
+        {
+          "id": "candy_sign",
+          "target": "Separate blue 彩虹糖 header with a yellow circular 10小包 badge above the ten packets.",
+          "basis": "User candy image",
+          "knowledge": "visible",
+          "method": "visual"
+        }
+      ]
+    }
+  },
+  "parameters": {
+    "samples": 20,
+    "layout": "unobstructed repeated units",
+    "seed": 0
+  },
+  "budgets": {},
+  "collection": "MODEL",
+  "blend": "assets/editable/supermarket.blend",
+  "glb": "assets/models/supermarket.glb",
+  "frames": [
+    1
+  ],
+  "tolerance": 0.0002,
+  "resources": [
+    {
+      "artifact_id": "pencil.resource",
+      "source": "User-provided local pencil GLB",
+      "license": "User-provided; no third-party redistribution rights inferred.",
+      "attribution": "User-provided Pencil_Box_10支.glb",
+      "redistribution": "For this user project; additional redistribution rights are not established."
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "blend",
+      "role": "blend",
+      "path": "assets/editable/supermarket.blend"
+    },
+    {
+      "id": "glb",
+      "role": "glb",
+      "path": "assets/models/supermarket.glb"
+    },
+    {
+      "id": "source",
+      "role": "source",
+      "path": "source/build_models.py"
+    },
+    {
+      "id": "finalizer",
+      "role": "source",
+      "path": "source/finalize_catalog.py"
+    },
+    {
+      "id": "check_script",
+      "role": "check_script",
+      "path": "source/checks.py"
+    },
+    {
+      "id": "render_config",
+      "role": "render_config",
+      "path": "assets/build-info.json"
+    },
+    {
+      "id": "catalog",
+      "role": "source",
+      "path": "assets/catalog.json"
+    },
+    {
+      "id": "texture.apple-skin",
+      "role": "texture",
+      "path": "assets/images/apple-skin.png"
+    },
+    {
+      "id": "preview.apples",
+      "role": "preview",
+      "path": "assets/images/apples.png"
+    },
+    {
+      "id": "preview.batteries",
+      "role": "preview",
+      "path": "assets/images/batteries.png"
+    },
+    {
+      "id": "preview.brushes",
+      "role": "preview",
+      "path": "assets/images/brushes.png"
+    },
+    {
+      "id": "preview.candy",
+      "role": "preview",
+      "path": "assets/images/candy.png"
+    },
+    {
+      "id": "preview.chips",
+      "role": "preview",
+      "path": "assets/images/chips.png"
+    },
+    {
+      "id": "preview.eggs",
+      "role": "preview",
+      "path": "assets/images/eggs.png"
+    },
+    {
+      "id": "preview.mugs",
+      "role": "preview",
+      "path": "assets/images/mugs.png"
+    },
+    {
+      "id": "preview.pencils",
+      "role": "preview",
+      "path": "assets/images/pencils.png"
+    },
+    {
+      "id": "preview.rolls",
+      "role": "preview",
+      "path": "assets/images/rolls.png"
+    },
+    {
+      "id": "preview.toothpaste",
+      "role": "preview",
+      "path": "assets/images/toothpaste.png"
+    },
+    {
+      "id": "preview.water",
+      "role": "preview",
+      "path": "assets/images/water.png"
+    },
+    {
+      "id": "preview.yogurt",
+      "role": "preview",
+      "path": "assets/images/yogurt.png"
+    },
+    {
+      "id": "preview.apples-front",
+      "role": "preview",
+      "path": "assets/diagnostics/apples-front.png"
+    },
+    {
+      "id": "preview.apples-side",
+      "role": "preview",
+      "path": "assets/diagnostics/apples-side.png"
+    },
+    {
+      "id": "preview.apples-top",
+      "role": "preview",
+      "path": "assets/diagnostics/apples-top.png"
+    },
+    {
+      "id": "preview.batteries-front",
+      "role": "preview",
+      "path": "assets/diagnostics/batteries-front.png"
+    },
+    {
+      "id": "preview.batteries-side",
+      "role": "preview",
+      "path": "assets/diagnostics/batteries-side.png"
+    },
+    {
+      "id": "preview.batteries-top",
+      "role": "preview",
+      "path": "assets/diagnostics/batteries-top.png"
+    },
+    {
+      "id": "preview.brushes-front",
+      "role": "preview",
+      "path": "assets/diagnostics/brushes-front.png"
+    },
+    {
+      "id": "preview.brushes-side",
+      "role": "preview",
+      "path": "assets/diagnostics/brushes-side.png"
+    },
+    {
+      "id": "preview.brushes-top",
+      "role": "preview",
+      "path": "assets/diagnostics/brushes-top.png"
+    },
+    {
+      "id": "preview.candy-front",
+      "role": "preview",
+      "path": "assets/diagnostics/candy-front.png"
+    },
+    {
+      "id": "preview.candy-side",
+      "role": "preview",
+      "path": "assets/diagnostics/candy-side.png"
+    },
+    {
+      "id": "preview.candy-top",
+      "role": "preview",
+      "path": "assets/diagnostics/candy-top.png"
+    },
+    {
+      "id": "preview.chips-front",
+      "role": "preview",
+      "path": "assets/diagnostics/chips-front.png"
+    },
+    {
+      "id": "preview.chips-side",
+      "role": "preview",
+      "path": "assets/diagnostics/chips-side.png"
+    },
+    {
+      "id": "preview.chips-top",
+      "role": "preview",
+      "path": "assets/diagnostics/chips-top.png"
+    },
+    {
+      "id": "preview.eggs-front",
+      "role": "preview",
+      "path": "assets/diagnostics/eggs-front.png"
+    },
+    {
+      "id": "preview.eggs-side",
+      "role": "preview",
+      "path": "assets/diagnostics/eggs-side.png"
+    },
+    {
+      "id": "preview.eggs-top",
+      "role": "preview",
+      "path": "assets/diagnostics/eggs-top.png"
+    },
+    {
+      "id": "preview.mugs-front",
+      "role": "preview",
+      "path": "assets/diagnostics/mugs-front.png"
+    },
+    {
+      "id": "preview.mugs-side",
+      "role": "preview",
+      "path": "assets/diagnostics/mugs-side.png"
+    },
+    {
+      "id": "preview.mugs-top",
+      "role": "preview",
+      "path": "assets/diagnostics/mugs-top.png"
+    },
+    {
+      "id": "preview.pencils-front",
+      "role": "preview",
+      "path": "assets/diagnostics/pencils-front.png"
+    },
+    {
+      "id": "preview.pencils-side",
+      "role": "preview",
+      "path": "assets/diagnostics/pencils-side.png"
+    },
+    {
+      "id": "preview.pencils-top",
+      "role": "preview",
+      "path": "assets/diagnostics/pencils-top.png"
+    },
+    {
+      "id": "preview.rolls-front",
+      "role": "preview",
+      "path": "assets/diagnostics/rolls-front.png"
+    },
+    {
+      "id": "preview.rolls-side",
+      "role": "preview",
+      "path": "assets/diagnostics/rolls-side.png"
+    },
+    {
+      "id": "preview.rolls-top",
+      "role": "preview",
+      "path": "assets/diagnostics/rolls-top.png"
+    },
+    {
+      "id": "preview.toothpaste-front",
+      "role": "preview",
+      "path": "assets/diagnostics/toothpaste-front.png"
+    },
+    {
+      "id": "preview.toothpaste-side",
+      "role": "preview",
+      "path": "assets/diagnostics/toothpaste-side.png"
+    },
+    {
+      "id": "preview.toothpaste-top",
+      "role": "preview",
+      "path": "assets/diagnostics/toothpaste-top.png"
+    },
+    {
+      "id": "preview.water-front",
+      "role": "preview",
+      "path": "assets/diagnostics/water-front.png"
+    },
+    {
+      "id": "preview.water-side",
+      "role": "preview",
+      "path": "assets/diagnostics/water-side.png"
+    },
+    {
+      "id": "preview.water-top",
+      "role": "preview",
+      "path": "assets/diagnostics/water-top.png"
+    },
+    {
+      "id": "preview.yogurt-front",
+      "role": "preview",
+      "path": "assets/diagnostics/yogurt-front.png"
+    },
+    {
+      "id": "preview.yogurt-side",
+      "role": "preview",
+      "path": "assets/diagnostics/yogurt-side.png"
+    },
+    {
+      "id": "preview.yogurt-top",
+      "role": "preview",
+      "path": "assets/diagnostics/yogurt-top.png"
+    },
+    {
+      "id": "tool.blender_io",
+      "role": "validator",
+      "path": "source/tools/blender_io.py"
+    },
+    {
+      "id": "tool.contract",
+      "role": "validator",
+      "path": "source/tools/contract.py"
+    },
+    {
+      "id": "tool.report_tool",
+      "role": "validator",
+      "path": "source/tools/report_tool.py"
+    },
+    {
+      "id": "tool.validate_scene",
+      "role": "validator",
+      "path": "source/tools/validate_scene.py"
+    },
+    {
+      "id": "tool.validate_v2",
+      "role": "validator",
+      "path": "source/tools/validate_v2.py"
+    },
+    {
+      "id": "texture.carton_atlas",
+      "role": "texture",
+      "path": "resources/toothpaste-atlas-chinese.png"
+    },
+    {
+      "id": "rolls.resource",
+      "role": "resource",
+      "path": "resources/rolls-supplied.glb"
+    },
+    {
+      "id": "pencil.resource",
+      "role": "resource",
+      "path": "resources/pencil-original.glb"
+    },
+    {
+      "id": "entrance.resource",
+      "role": "resource",
+      "path": "resources/entrance-background.jpg"
+    },
+    {
+      "id": "reference.battery",
+      "role": "reference",
+      "path": "resources/references/battery.png"
+    },
+    {
+      "id": "reference.department",
+      "role": "reference",
+      "path": "resources/references/department-transition.png"
+    },
+    {
+      "id": "reference.food",
+      "role": "reference",
+      "path": "resources/references/food-transition.png"
+    },
+    {
+      "id": "reference.candy",
+      "role": "reference",
+      "path": "resources/references/candy.png"
+    },
+    {
+      "id": "reference.toothpaste_real",
+      "role": "reference",
+      "path": "resources/references/toothpaste-real.png"
+    },
+    {
+      "id": "reference.rolls_real",
+      "role": "reference",
+      "path": "resources/references/rolls-real.png"
+    },
+    {
+      "id": "reference.apple_real",
+      "role": "reference",
+      "path": "resources/references/apple-real.png"
+    },
+    {
+      "id": "reference.brush_real",
+      "role": "reference",
+      "path": "resources/references/brush-real.png"
+    },
+    {
+      "id": "reference.water_real",
+      "role": "reference",
+      "path": "resources/references/water-real.png"
+    },
+    {
+      "id": "reference.toothpaste_atlas",
+      "role": "reference",
+      "path": "resources/references/toothpaste-atlas-original.png"
+    },
+    {
+      "id": "reference.rolls_handle",
+      "role": "reference",
+      "path": "resources/references/rolls-handle.png"
+    },
+    {
+      "id": "preview.transition.department",
+      "role": "preview",
+      "path": "verification/百货过渡页预览.jpg"
+    },
+    {
+      "id": "preview.transition.food",
+      "role": "preview",
+      "path": "verification/食品过渡页预览.jpg"
+    }
+  ],
+  "acceptance": [
+    {
+      "id": "task.product_counts",
+      "method": "task",
+      "required": true,
+      "rule": "User product inventory, 2026-10-11",
+      "check_deps": [
+        "blend",
+        "glb",
+        "source",
+        "check_script",
+        "rolls.resource"
+      ],
+      "config": {}
+    },
+    {
+      "id": "task.packaging",
+      "method": "task",
+      "required": true,
+      "rule": "User transparent bags and battery card request, 2026-10-11",
+      "check_deps": [
+        "blend",
+        "glb",
+        "source",
+        "check_script",
+        "rolls.resource"
+      ],
+      "config": {}
+    },
+    {
+      "id": "task.real_forms",
+      "method": "task",
+      "required": true,
+      "rule": "User reference shapes with unchanged package quantities",
+      "check_deps": [
+        "blend",
+        "glb",
+        "source",
+        "check_script",
+        "rolls.resource"
+      ],
+      "config": {}
+    },
+    {
+      "id": "task.current_repairs",
+      "method": "task",
+      "required": true,
+      "rule": "User front-facing handles, carton texture and paper-bag grip",
+      "check_deps": [
+        "blend",
+        "glb",
+        "source",
+        "check_script",
+        "rolls.resource"
+      ],
+      "config": {}
+    },
+    {
+      "id": "task.carton_uv_orientation",
+      "method": "task",
+      "required": true,
+      "rule": "No mirrored toothpaste text on outward carton faces",
+      "check_deps": [
+        "blend",
+        "glb",
+        "source",
+        "check_script",
+        "rolls.resource"
+      ],
+      "config": {}
+    }
+  ]
+}

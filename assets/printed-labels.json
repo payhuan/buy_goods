@@ -1,0 +1,477 @@
+[
+  {
+    "object": "Board 1 title",
+    "text": "柔软牙刷",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Board 2 title",
+    "text": "柔软牙刷",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Battery pack quantity",
+    "text": "10节",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Battery 1 AA print",
+    "text": "电池",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Battery 2 AA print",
+    "text": "电池",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Battery 3 AA print",
+    "text": "电池",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Battery 4 AA print",
+    "text": "电池",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Battery 5 AA print",
+    "text": "电池",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Battery 6 AA print",
+    "text": "电池",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Battery 7 AA print",
+    "text": "电池",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Battery 8 AA print",
+    "text": "电池",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Battery 9 AA print",
+    "text": "电池",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Battery 10 AA print",
+    "text": "电池",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Pencil Chinese brand",
+    "text": "铅笔",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Pencil Chinese grade",
+    "text": "学生用",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Pencil Chinese subtitle",
+    "text": "书写顺滑",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Pencil Chinese caption",
+    "text": "学生铅笔",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Water bottle 1 label",
+    "text": "矿泉水",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Water bottle 1 volume",
+    "text": "净含量500毫升",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Water bottle 2 label",
+    "text": "矿泉水",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Water bottle 2 volume",
+    "text": "净含量500毫升",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Water bottle 3 label",
+    "text": "矿泉水",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Water bottle 3 volume",
+    "text": "净含量500毫升",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Water bottle 4 label",
+    "text": "矿泉水",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Water bottle 4 volume",
+    "text": "净含量500毫升",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Water bottle 5 label",
+    "text": "矿泉水",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Water bottle 5 volume",
+    "text": "净含量500毫升",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Water bottle 6 label",
+    "text": "矿泉水",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Water bottle 6 volume",
+    "text": "净含量500毫升",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Water bottle 7 label",
+    "text": "矿泉水",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Water bottle 7 volume",
+    "text": "净含量500毫升",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Water bottle 8 label",
+    "text": "矿泉水",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Water bottle 8 volume",
+    "text": "净含量500毫升",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Water bottle 9 label",
+    "text": "矿泉水",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Water bottle 9 volume",
+    "text": "净含量500毫升",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Water bottle 10 label",
+    "text": "矿泉水",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Water bottle 10 volume",
+    "text": "净含量500毫升",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Water bottle 11 label",
+    "text": "矿泉水",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Water bottle 11 volume",
+    "text": "净含量500毫升",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Water bottle 12 label",
+    "text": "矿泉水",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Water bottle 12 volume",
+    "text": "净含量500毫升",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Chips can 1 title",
+    "text": "薯片",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Chips can 1 subtitle",
+    "text": "原味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Chips can 2 title",
+    "text": "薯片",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Chips can 2 subtitle",
+    "text": "原味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Chips can 3 title",
+    "text": "薯片",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Chips can 3 subtitle",
+    "text": "原味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Chips can 4 title",
+    "text": "薯片",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Chips can 4 subtitle",
+    "text": "原味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Chips can 5 title",
+    "text": "薯片",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Chips can 5 subtitle",
+    "text": "原味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Chips can 6 title",
+    "text": "薯片",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Chips can 6 subtitle",
+    "text": "原味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Candy sign title",
+    "text": "彩虹糖",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Candy sign quantity",
+    "text": "10小包",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Candy pouch 1 printed title",
+    "text": "彩虹糖",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Candy pouch 1 bottom caption",
+    "text": "水果味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Candy pouch 2 printed title",
+    "text": "彩虹糖",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Candy pouch 2 bottom caption",
+    "text": "水果味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Candy pouch 3 printed title",
+    "text": "彩虹糖",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Candy pouch 3 bottom caption",
+    "text": "水果味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Candy pouch 4 printed title",
+    "text": "彩虹糖",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Candy pouch 4 bottom caption",
+    "text": "水果味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Candy pouch 5 printed title",
+    "text": "彩虹糖",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Candy pouch 5 bottom caption",
+    "text": "水果味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Candy pouch 6 printed title",
+    "text": "彩虹糖",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Candy pouch 6 bottom caption",
+    "text": "水果味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Candy pouch 7 printed title",
+    "text": "彩虹糖",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Candy pouch 7 bottom caption",
+    "text": "水果味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Candy pouch 8 printed title",
+    "text": "彩虹糖",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Candy pouch 8 bottom caption",
+    "text": "水果味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Candy pouch 9 printed title",
+    "text": "彩虹糖",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Candy pouch 9 bottom caption",
+    "text": "水果味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Candy pouch 10 printed title",
+    "text": "彩虹糖",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Candy pouch 10 bottom caption",
+    "text": "水果味",
+    "font_weight": "regular"
+  },
+  {
+    "object": "Yogurt cup 1 lid print",
+    "text": "酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 1 front print",
+    "text": "原味酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 2 lid print",
+    "text": "酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 2 front print",
+    "text": "原味酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 3 lid print",
+    "text": "酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 3 front print",
+    "text": "原味酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 4 lid print",
+    "text": "酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 4 front print",
+    "text": "原味酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 5 lid print",
+    "text": "酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 5 front print",
+    "text": "原味酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 6 lid print",
+    "text": "酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 6 front print",
+    "text": "原味酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 7 lid print",
+    "text": "酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 7 front print",
+    "text": "原味酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 8 lid print",
+    "text": "酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 8 front print",
+    "text": "原味酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 9 lid print",
+    "text": "酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 9 front print",
+    "text": "原味酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 10 lid print",
+    "text": "酸奶",
+    "font_weight": "bold"
+  },
+  {
+    "object": "Yogurt cup 10 front print",
+    "text": "原味酸奶",
+    "font_weight": "bold"
+  }
+]

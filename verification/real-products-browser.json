@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-11",
+  "method": "Actual standalone HTML in Codex in-app browser, 1280 x 720; DOM tickets and screenshots inspected",
+  "checks": [
+    {
+      "id": "department_tickets",
+      "status": "pass",
+      "observed": [
+        "电池¥19.90",
+        "铅笔¥9.90",
+        "牙膏¥8.90",
+        "水杯¥12.90",
+        "牙刷¥15.90",
+        "卷纸¥19.90"
+      ],
+      "magnifier_buttons": 0
+    },
+    {
+      "id": "food_tickets",
+      "status": "pass",
+      "observed": [
+        "苹果¥4.00",
+        "彩虹糖¥12.90",
+        "筒装薯片¥8.90",
+        "鸡蛋¥12.00",
+        "矿泉水¥18.00",
+        "酸奶¥24.90"
+      ]
+    },
+    {
+      "id": "selection_feedback",
+      "status": "pass",
+      "water_selection_stars": 0,
+      "egg_selection_stars": 1,
+      "egg_button_disabled": true,
+      "persistent_egg_star_visible": true
+    },
+    {
+      "id": "egg_shadow",
+      "status": "pass",
+      "observed": "Rear right egg shell is evenly lit without upper shelf projection in actual food screenshot; counting orientation retained."
+    },
+    {
+      "id": "console",
+      "status": "pass",
+      "errors": []
+    }
+  ],
+  "screenshots": [
+    "verification/百货实物细化预览.png",
+    "verification/食品实物细化预览.png"
+  ]
+}

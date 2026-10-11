@@ -1,0 +1,6 @@
+{
+  "name": "little-market-counting",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": { "test": "node --test source/game.test.cjs", "start": "python serve.py --open" }
+}

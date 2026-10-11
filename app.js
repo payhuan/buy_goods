@@ -1,0 +1,155 @@
+/* Shopping introductions play only while moving forward. */
+const products = MARKET_PRODUCTS;
+const game = createMarketGame(products);
+const goods = document.querySelector('#goods');
+const dialog = document.querySelector('#inspect');
+const cards = new Map();
+document.querySelector('#entrance-background').style.backgroundImage = `url("${marketAssetUrl('assets/images/entrance-background.jpg')}")`;
+let audio, muted = false, inspected, viewer, viewRequest = 0, scene, sceneRequest = 0, pageTimer;
+
+function sound(correct) {
+  if (muted) return;
+  try {
+    audio ??= new (window.AudioContext || window.webkitAudioContext)(); audio.resume();
+    (correct ? [660, 880, 1100] : [170]).forEach((frequency, index) => {
+      const oscillator = audio.createOscillator(), gain = audio.createGain(), start = audio.currentTime + index * .09;
+      oscillator.type = 'sine'; oscillator.frequency.value = frequency;
+      gain.gain.setValueAtTime(0, start); gain.gain.linearRampToValueAtTime(.055, start + .015);
+      gain.gain.exponentialRampToValueAtTime(.001, start + .16);
+      oscillator.connect(gain); gain.connect(audio.destination); oscillator.start(start); oscillator.stop(start + .17);
+    });
+  } catch (_) { /* Sound availability never prevents choosing or turning pages. */ }
+}
+function refreshScore() {
+  document.querySelector('#star-count').textContent = game.stars;
+  document.querySelector('#score').setAttribute('aria-label', `已获得${game.stars}颗星星`);
+  document.querySelector('#area-progress').textContent = `已找到 ${game.foundIn(game.zone)} / 3`;
+}
+function award(origin) {
+  refreshScore();
+  const score = document.querySelector('#score'); score.classList.remove('pop'); void score.offsetWidth; score.classList.add('pop');
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const a = origin.getBoundingClientRect(), b = score.getBoundingClientRect();
+  const star = document.createElement('span'); star.className = 'flying-star'; star.textContent = '★'; star.setAttribute('aria-hidden', 'true');
+  star.style.left = `${a.left + a.width / 2 - 20}px`; star.style.top = `${a.top + a.height / 2 - 20}px`; document.body.append(star);
+  const flight = star.animate([{ transform: 'translate(0,0) scale(.5)', opacity: 1 },
+    { transform: 'translate(0,0) scale(1.65)', opacity: 1, offset: .25 },
+    { transform: `translate(${b.left + b.width / 2 - a.left - a.width / 2}px,${b.top + b.height / 2 - a.top - a.height / 2}px) scale(1.1)`, opacity: 1 }],
+    { duration: 1600, easing: 'cubic-bezier(.3,.1,.35,1)' }); flight.onfinish = () => star.remove();
+}
+function layoutGoods(entries) {
+  for (const entry of entries) {
+    const card = cards.get(entry.id); if (!card) continue;
+    Object.assign(card.choose.style, { left: `${entry.left - 6}px`, top: `${entry.top - 6}px`, width: `${entry.width + 12}px`, height: `${entry.height + 12}px` });
+    Object.assign(card.label.style, { left: `${entry.label.x}px`, top: `${entry.label.y}px` });
+    Object.assign(card.badge.style, { left: `${entry.left + entry.width + 5}px`, top: `${entry.top + 10}px` });
+  }
+}
+function renderGoods() {
+  goods.replaceChildren(); cards.clear();
+  const order = game.zone === '百货区' ? ['batteries', 'pencils', 'toothpaste', 'mugs', 'brushes', 'rolls'] : ['apples', 'candy', 'chips', 'eggs', 'water', 'yogurt'];
+  for (const [index, id] of order.entries()) {
+    const item = products.find(p => p.id === id);
+    const choose = document.createElement('button'); choose.className = 'product-hit fallback-product'; choose.dataset.id = id;
+    choose.setAttribute('aria-label', `选择${item.name}`); choose.disabled = game.hasStar(id);
+    choose.innerHTML = `<img src="${marketAssetUrl(`assets/images/${id}.png`)}" alt="${item.name}" draggable="false">`;
+    Object.assign(choose.style, { left: `${17 + index % 3 * 24}%`, top: `${index < 3 ? 23 : 55}%`, width: '20%', height: '29%' });
+    const label = document.createElement('div'); label.className = 'product-label'; label.dataset.id = id;
+    label.innerHTML = `<div class="label-name">${item.name}</div><div class="label-price">¥${item.price.toFixed(2)}</div>`;
+    label.style.left = `${27 + index % 3 * 24}%`; label.style.top = `${index < 3 ? 53 : 83}%`;
+    const badge = document.createElement('span'); badge.className = 'earned-star'; badge.textContent = '★';
+    badge.setAttribute('aria-label', `${item.name}已获得星星`); badge.hidden = !game.hasStar(id);
+    badge.style.left = `${35 + index % 3 * 24}%`; badge.style.top = `${index < 3 ? 26 : 58}%`;
+    choose.addEventListener('click', () => {
+      const result = game.select(id);
+      if (result === 'correct') {
+        choose.disabled = true; badge.hidden = false; sound(true); award(choose);
+        if (scene && document.body.dataset.renderer === '3d') scene.celebrate(id);
+        else choose.querySelector('img').animate([{transform:'scale(1)'},{transform:'scale(1.16)'},{transform:'scale(1)'}],{duration:800});
+        if (game.foundIn(game.zone) === 3) {
+          const completedPage = game.page;
+          clearTimeout(pageTimer);
+          pageTimer = setTimeout(() => { if (game.page === completedPage) { game.next(); renderPage(); } }, 2300);
+        }
+      }
+      else if (result === 'wrong') {
+        if (scene && document.body.dataset.renderer === '3d') scene.shake(id);
+        else { const image = choose.querySelector('img'); image.classList.remove('shake'); void image.offsetWidth; image.classList.add('shake'); }
+        sound(false);
+      }
+    });
+    goods.append(choose, label, badge); cards.set(id, { choose, label, badge });
+  }
+}
+async function renderPage() {
+  const token = ++sceneRequest, page = game.page, inArea = ['百货区', '食品区'].includes(page);
+  clearTimeout(pageTimer);
+  const inTransition = page === '百货过渡' || page === '食品过渡';
+  document.querySelector('#transition').hidden = !inTransition;
+  if (inTransition) {
+    document.querySelector('#transition-title').textContent = game.zone;
+    document.querySelector('#transition-products').textContent = game.zone === '百货区' ? '牙膏、水杯、铅笔和电池……' : '酸奶、彩虹糖、鸡蛋和水果……';
+    pageTimer = setTimeout(() => { if (game.page === page) { game.next(); renderPage(); } }, 1500);
+  }
+  if (dialog.open) dialog.close();
+  document.body.dataset.page = page; document.body.dataset.renderer = 'fallback';
+  document.querySelector('#entrance').hidden = page !== '入口'; document.querySelector('#ending').hidden = page !== '结束';
+  document.querySelector('.hud').hidden = !inArea; document.querySelector('#area-sign').hidden = !inArea;
+  document.querySelector('.scene-nav').hidden = !inArea; goods.hidden = !inArea;
+  document.querySelector('#fallback-rack').hidden = !inArea; document.querySelector('#fallback-aisle').hidden = inArea;
+  document.querySelector('#zone-title').textContent = game.zone; refreshScore();
+  if (inArea) renderGoods(); else { goods.replaceChildren(); cards.clear(); }
+  if (page === '结束') {
+    document.querySelector('#ending-title').textContent = game.stars === 6 ? '通关啦！' : '逛完啦！';
+    document.querySelector('#ending-score').textContent = `你收集了 ${game.stars} 颗星星`;
+    document.querySelector('.ending-stars').innerHTML = Array.from({ length: 6 }, (_, i) => `<span class="${i < game.stars ? '' : 'empty'}" aria-hidden="true">★</span>`).join('');
+    document.querySelector('.ending-stars').setAttribute('aria-label', `获得${game.stars}颗星星`);
+  }
+  if (!scene) return;
+  try {
+    const ready = await scene.setPage(page);
+    if (token !== sceneRequest || !ready) return;
+    document.body.dataset.renderer = '3d';
+    document.querySelector('#fallback-rack').hidden = true; document.querySelector('#fallback-aisle').hidden = true;
+    for (const { choose } of cards.values()) { choose.classList.remove('fallback-product'); choose.querySelector('img').hidden = true; }
+  } catch (_) { /* Continuous shelf fallback remains usable if WebGL or asset loading fails. */ }
+}
+for (const [selector, action] of [['#enter', () => game.enter()], ['#transition-enter', () => game.next()], ['#next-page', () => game.next()], ['#previous-page', () => game.back()], ['#replay', () => game.restart()], ['#return-food', () => game.back()]]) {
+  document.querySelector(selector).addEventListener('click', () => { action(); renderPage(); });
+}
+document.querySelector('#sound').addEventListener('click', event => {
+  muted = !muted; event.currentTarget.textContent = muted ? '♫ 音效关' : '♫ 音效开';
+  event.currentTarget.setAttribute('aria-pressed', String(!muted)); event.currentTarget.setAttribute('aria-label', muted ? '打开音效' : '关闭音效');
+});
+document.querySelector('#fullscreen').addEventListener('click', async () => {
+  try { if (document.fullscreenElement) await document.exitFullscreen(); else await document.documentElement.requestFullscreen(); } catch (_) { }
+});
+function inspect(item) { inspected = item; document.querySelector('#inspect-title').textContent = item.name;
+  document.querySelector('#inspect-image').alt = `${item.name}放大图`; dialog.showModal(); setView('main'); }
+async function setView(view) {
+  const request = ++viewRequest; viewer?.dispose(); viewer = null;
+  const image = document.querySelector('#inspect-image'), stage = document.querySelector('#model-stage');
+  stage.replaceChildren(); stage.hidden = view !== '3d'; image.hidden = view === '3d'; document.querySelector('#viewer-error').hidden = true;
+  document.querySelectorAll('[data-view]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.view === view)));
+  if (view !== '3d') { image.src = view === 'main' ? marketAssetUrl(`assets/images/${inspected.id}.png`) : marketAssetUrl(`assets/diagnostics/${inspected.id}-${view}.png`); return; }
+  try {
+    const module = await import('./viewer.js?v=20261011-supplied-rolls'); if (request !== viewRequest || !dialog.open) return;
+    const instance = await module.openViewer(stage, marketAssetUrl(`assets/models/${inspected.id}.glb`));
+    if (request !== viewRequest || !dialog.open) { instance.dispose(); return; } viewer = instance;
+  } catch (_) {
+    if (request !== viewRequest) return; stage.hidden = true; image.hidden = false; image.src = marketAssetUrl(`assets/images/${inspected.id}.png`);
+    document.querySelector('#viewer-error').hidden = false;
+  }
+}
+document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => setView(button.dataset.view)));
+document.querySelector('#close-inspect').addEventListener('click', () => dialog.close());
+dialog.addEventListener('close', () => { viewRequest++; viewer?.dispose(); viewer = null; document.querySelector('#model-stage').replaceChildren(); });
+renderPage();
+(async () => {
+  try { const module = await import('./scene.js?v=20261011-supplied-rolls'); scene = await module.createMarketScene(document.querySelector('#scene-stage'), products, layoutGoods); renderPage(); }
+  catch (_) { /* Local file opening also supports the four pages and shelf images. */ }
+})();
+
+
+
+

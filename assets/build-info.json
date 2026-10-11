@@ -1,0 +1,18 @@
+{
+  "blender": "5.2.1 LTS",
+  "engine": "Cycles CPU",
+  "samples": 20,
+  "units": "metres",
+  "renderViews": [
+    "main",
+    "top",
+    "front",
+    "side"
+  ],
+  "simplifications": [
+    "Transparent bags expose rolls, water and candy; yogurt and eggs retain low trays.",
+    "PET body is tinted for legibility.",
+    "Procedural micro-bump stays in blend; GLB uses plain PBR colours."
+  ],
+  "source": "Task-created models; battery and candy adapted from user references. Pencil GLB supplied by user; no source webpage scraped."
+}

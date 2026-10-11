@@ -1,0 +1,218 @@
+[
+  {
+    "id": "rolls",
+    "name": "卷纸",
+    "zone": "百货区",
+    "perPackage": 10,
+    "stock": 1,
+    "unit": "袋",
+    "price": 19.9,
+    "correct": true,
+    "dimensions": [
+      0.643,
+      0.12869,
+      0.235
+    ],
+    "model": "models/rolls.glb",
+    "image": "images/rolls.png",
+    "countableUnits": 10
+  },
+  {
+    "id": "mugs",
+    "name": "水杯",
+    "zone": "百货区",
+    "perPackage": 1,
+    "stock": 3,
+    "unit": "个",
+    "price": 12.9,
+    "correct": false,
+    "dimensions": [
+      0.384,
+      0.08,
+      0.088
+    ],
+    "model": "models/mugs.glb",
+    "image": "images/mugs.png",
+    "countableUnits": 3
+  },
+  {
+    "id": "toothpaste",
+    "name": "牙膏",
+    "zone": "百货区",
+    "perPackage": 1,
+    "stock": 4,
+    "unit": "盒",
+    "price": 8.9,
+    "correct": false,
+    "dimensions": [
+      0.204,
+      0.03265,
+      0.186
+    ],
+    "model": "models/toothpaste.glb",
+    "image": "images/toothpaste.png",
+    "countableUnits": 4
+  },
+  {
+    "id": "brushes",
+    "name": "牙刷",
+    "zone": "百货区",
+    "perPackage": 6,
+    "stock": 2,
+    "unit": "板",
+    "price": 15.9,
+    "correct": false,
+    "dimensions": [
+      0.442,
+      0.225,
+      0.034
+    ],
+    "model": "models/brushes.glb",
+    "image": "images/brushes.png",
+    "countableUnits": 12
+  },
+  {
+    "id": "batteries",
+    "name": "电池",
+    "zone": "百货区",
+    "perPackage": 10,
+    "stock": 1,
+    "unit": "板",
+    "price": 19.9,
+    "correct": true,
+    "dimensions": [
+      0.148,
+      0.215,
+      0.0275
+    ],
+    "model": "models/batteries.glb",
+    "image": "images/batteries.png",
+    "countableUnits": 10
+  },
+  {
+    "id": "pencils",
+    "name": "铅笔",
+    "zone": "百货区",
+    "perPackage": 10,
+    "stock": 1,
+    "unit": "盒",
+    "price": 9.9,
+    "correct": true,
+    "dimensions": [
+      0.088,
+      0.03624,
+      0.2
+    ],
+    "model": "models/pencils.glb",
+    "image": "images/pencils.png",
+    "countableUnits": 10
+  },
+  {
+    "id": "water",
+    "name": "矿泉水",
+    "zone": "食品区",
+    "perPackage": 12,
+    "stock": 1,
+    "unit": "件",
+    "price": 18.0,
+    "correct": false,
+    "dimensions": [
+      0.312,
+      0.2344,
+      0.19138
+    ],
+    "model": "models/water.glb",
+    "image": "images/water.png",
+    "countableUnits": 12
+  },
+  {
+    "id": "chips",
+    "name": "筒装薯片",
+    "zone": "食品区",
+    "perPackage": 1,
+    "stock": 6,
+    "unit": "筒",
+    "price": 8.9,
+    "correct": false,
+    "dimensions": [
+      0.2562,
+      0.1762,
+      0.2246
+    ],
+    "model": "models/chips.glb",
+    "image": "images/chips.png",
+    "countableUnits": 6
+  },
+  {
+    "id": "candy",
+    "name": "彩虹糖",
+    "zone": "食品区",
+    "perPackage": 10,
+    "stock": 1,
+    "unit": "袋",
+    "price": 12.9,
+    "correct": true,
+    "dimensions": [
+      0.203,
+      0.3947,
+      0.04638
+    ],
+    "model": "models/candy.glb",
+    "image": "images/candy.png",
+    "countableUnits": 10
+  },
+  {
+    "id": "yogurt",
+    "name": "酸奶",
+    "zone": "食品区",
+    "perPackage": 10,
+    "stock": 1,
+    "unit": "件",
+    "price": 24.9,
+    "correct": true,
+    "dimensions": [
+      0.368,
+      0.167,
+      0.06688
+    ],
+    "model": "models/yogurt.glb",
+    "image": "images/yogurt.png",
+    "countableUnits": 10
+  },
+  {
+    "id": "eggs",
+    "name": "鸡蛋",
+    "zone": "食品区",
+    "perPackage": 10,
+    "stock": 1,
+    "unit": "盒",
+    "price": 12.0,
+    "correct": true,
+    "dimensions": [
+      0.321,
+      0.145,
+      0.07
+    ],
+    "model": "models/eggs.glb",
+    "image": "images/eggs.png",
+    "countableUnits": 10
+  },
+  {
+    "id": "apples",
+    "name": "苹果",
+    "zone": "食品区",
+    "perPackage": 1,
+    "stock": 4,
+    "unit": "个",
+    "price": 4.0,
+    "correct": false,
+    "dimensions": [
+      0.37263,
+      0.08305,
+      0.0865
+    ],
+    "model": "models/apples.glb",
+    "image": "images/apples.png",
+    "countableUnits": 4
+  }
+]

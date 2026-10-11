@@ -1,0 +1,324 @@
+{
+  "format": "standalone HTML",
+  "models": 12,
+  "images": 49,
+  "embedded_modules": [
+    "market-three-core",
+    "market-three",
+    "market-buffer-utils",
+    "market-gltf-loader",
+    "market-orbit-controls",
+    "market-scene",
+    "market-viewer"
+  ],
+  "external_runtime_files": 0,
+  "html_bytes": 49200209,
+  "assets": [
+    {
+      "path": "assets/models/rolls.glb",
+      "bytes": 2970368,
+      "sha256": "b7b0e2101908ed5d91617aa5dbfad5a5be9050fd6ad9d367a83936f76c62434e"
+    },
+    {
+      "path": "assets/images/rolls.png",
+      "bytes": 409073,
+      "sha256": "15c97b2a10919f8a102b228133d8bf2dd81a926510c6333c90e35d247ab30c57"
+    },
+    {
+      "path": "assets/diagnostics/rolls-top.png",
+      "bytes": 94728,
+      "sha256": "5000f33d412977d8db3e31be31168c04d4055e6b42ba2889656ad56aec5d8bc5"
+    },
+    {
+      "path": "assets/diagnostics/rolls-front.png",
+      "bytes": 149985,
+      "sha256": "159d00c40b4b4e42e3de71c2847e07d1ecd8eeeb6464b7c5e15fa3764dcecbba"
+    },
+    {
+      "path": "assets/diagnostics/rolls-side.png",
+      "bytes": 122823,
+      "sha256": "58cd51a24987152f277f54009b8a10ddfd474968e27c28425941d4779a8d3637"
+    },
+    {
+      "path": "assets/models/mugs.glb",
+      "bytes": 133156,
+      "sha256": "c1de16ea159147a8637f6d93406dc1efed352178c49ecb7e25d864d973b87743"
+    },
+    {
+      "path": "assets/images/mugs.png",
+      "bytes": 242755,
+      "sha256": "9a924c2ffccf6282d0caa15a756c45eacefdc5bea611a8a126f29f909653c705"
+    },
+    {
+      "path": "assets/diagnostics/mugs-top.png",
+      "bytes": 72116,
+      "sha256": "989c9bdac77781f4b5d9c8ac158d256f5b4f93b6d33cf2cc728f5e0444977a6e"
+    },
+    {
+      "path": "assets/diagnostics/mugs-front.png",
+      "bytes": 88977,
+      "sha256": "dc65e910f295629a86f782f288892f788ced31cfec84bc6fe38edf1c8ee5a060"
+    },
+    {
+      "path": "assets/diagnostics/mugs-side.png",
+      "bytes": 97826,
+      "sha256": "496f786451d68c6577237fe817e1dccd2efeef46aedd00e6f31b8785c0ec8170"
+    },
+    {
+      "path": "assets/models/toothpaste.glb",
+      "bytes": 1727228,
+      "sha256": "8a501814e33452251e60d29abd245081d74391758c4a96c397bb5d0696110a77"
+    },
+    {
+      "path": "assets/images/toothpaste.png",
+      "bytes": 457939,
+      "sha256": "4ccd481a5dcc4b96006677f14bc863ee1028e8937cdfa63f7426554974dbe57e"
+    },
+    {
+      "path": "assets/diagnostics/toothpaste-top.png",
+      "bytes": 89101,
+      "sha256": "cde32dd5a867aa2867ccc7627dc489c49ddd515f6c05790b68d57bebbda56b3e"
+    },
+    {
+      "path": "assets/diagnostics/toothpaste-front.png",
+      "bytes": 207941,
+      "sha256": "a722abb302b3ff493040bcbf20838b1142ddedfbbbacb47e87a03e27de82a954"
+    },
+    {
+      "path": "assets/diagnostics/toothpaste-side.png",
+      "bytes": 106746,
+      "sha256": "5d5889dd28c8d1374d1583ca9e65c4a4366554a6c3f4666a834d430f7723b41e"
+    },
+    {
+      "path": "assets/models/brushes.glb",
+      "bytes": 3040504,
+      "sha256": "9eafd2d8dc7647f0cfc2b981c4a601a7409ca6aebcc596d05e6ff51bece38cb0"
+    },
+    {
+      "path": "assets/images/brushes.png",
+      "bytes": 317143,
+      "sha256": "e2779086ce26e1af114ca637721c12600682d105c64112257f141ae1f9269b5b"
+    },
+    {
+      "path": "assets/diagnostics/brushes-top.png",
+      "bytes": 126206,
+      "sha256": "3229eaf2dd9bf1a636008fa806c4df127bbf5ec9af8b9cb100030611b6c20050"
+    },
+    {
+      "path": "assets/diagnostics/brushes-front.png",
+      "bytes": 80550,
+      "sha256": "78fb4847931bca5efeb5844f9646a939e44494165dafb1d2dc26566d6c1aedc0"
+    },
+    {
+      "path": "assets/diagnostics/brushes-side.png",
+      "bytes": 137165,
+      "sha256": "77191edbbaf546e81c3da8f9d2390f7e0637788b945048ecd0c097694313ff21"
+    },
+    {
+      "path": "assets/models/batteries.glb",
+      "bytes": 923664,
+      "sha256": "68fb3bf6001d039e84c71d0bcf7230a22fc6de09e083e8006e22d63415c89460"
+    },
+    {
+      "path": "assets/images/batteries.png",
+      "bytes": 319741,
+      "sha256": "0f067edce37bc9f322466840dc5614dd8c6acd87883a0f30a052485c5b7b2134"
+    },
+    {
+      "path": "assets/diagnostics/batteries-top.png",
+      "bytes": 117547,
+      "sha256": "f518e3fd8f65299a3a8d380657daff2b49ae9578fb94f85c0ae69f56cc742c73"
+    },
+    {
+      "path": "assets/diagnostics/batteries-front.png",
+      "bytes": 107089,
+      "sha256": "cb0f5e57113c77525cc903bb83518f6b2b588f300f3b3db890b2b5e528864bd2"
+    },
+    {
+      "path": "assets/diagnostics/batteries-side.png",
+      "bytes": 98095,
+      "sha256": "78dd4b2b2d638f70b86aaec8b0e20f3f974c8fee788c98b52cc9ff1a5d406dc7"
+    },
+    {
+      "path": "assets/models/pencils.glb",
+      "bytes": 1649056,
+      "sha256": "9216f77be055489df2688da9e9fc90ba4fc7e25c23ef4f0fa8921cf798b401b3"
+    },
+    {
+      "path": "assets/images/pencils.png",
+      "bytes": 306165,
+      "sha256": "364b6f7355913c64ef89ac94da7fca36fe179ac16581a3fdd8b4d8bb8c548323"
+    },
+    {
+      "path": "assets/diagnostics/pencils-top.png",
+      "bytes": 135933,
+      "sha256": "7d03a38a8af8c2fedd062e22b82cdf3d5b4357b16268e71fc92591fd29d1901a"
+    },
+    {
+      "path": "assets/diagnostics/pencils-front.png",
+      "bytes": 113792,
+      "sha256": "b8e2db84151f61c9e971e9c8210a91fd51c360bb6e7093a1db82bf99e911d1ab"
+    },
+    {
+      "path": "assets/diagnostics/pencils-side.png",
+      "bytes": 85218,
+      "sha256": "3c16351116a8819c19c2568545ffd050b73e2feffff531d610b9c2e148e598ab"
+    },
+    {
+      "path": "assets/models/water.glb",
+      "bytes": 5490060,
+      "sha256": "d9597b4d6828651f8d35b8e32d9ba51ce2075837d201e5e26489546a5fc36a0b"
+    },
+    {
+      "path": "assets/images/water.png",
+      "bytes": 362911,
+      "sha256": "5e8b6b2027c0fb5b6a78028781a17799a77bbfefb26929ddbf1ac05dcdd6c37e"
+    },
+    {
+      "path": "assets/diagnostics/water-top.png",
+      "bytes": 199327,
+      "sha256": "f08d5451bece5637376271787bb58315e03bbc9376d36c57c9dd15c4c3b59f7a"
+    },
+    {
+      "path": "assets/diagnostics/water-front.png",
+      "bytes": 202626,
+      "sha256": "d7670f0fd3e025f0f669254aca4e6f853609849e0927dfe7ae8539c1841e49ba"
+    },
+    {
+      "path": "assets/diagnostics/water-side.png",
+      "bytes": 157995,
+      "sha256": "f573b8f9c502845c4910752b1010b75eef97d60e85af0094766588e0b87acef0"
+    },
+    {
+      "path": "assets/models/chips.glb",
+      "bytes": 986616,
+      "sha256": "6015bd55215a2f4a3f7ee432322179fecf671782937adf2d1682a898b1d3da1b"
+    },
+    {
+      "path": "assets/images/chips.png",
+      "bytes": 325904,
+      "sha256": "15fd8ec87e62e58d9e74908c7e314a585254ab4e5b6b1bdbbd9ef2c3e637adc3"
+    },
+    {
+      "path": "assets/diagnostics/chips-top.png",
+      "bytes": 140002,
+      "sha256": "75ad67759742b5a106d6843e1d3f3d9d95168f55a2c7327cc0eced5e6f8225aa"
+    },
+    {
+      "path": "assets/diagnostics/chips-front.png",
+      "bytes": 157660,
+      "sha256": "9ad0078295b84436bf54d19d9cfb39c0335de7820a6305747fdcaf52a63c6fdd"
+    },
+    {
+      "path": "assets/diagnostics/chips-side.png",
+      "bytes": 123385,
+      "sha256": "d4c92675a86fdd53aafde7307a537237349e1525cee62d7a1160b100cb316655"
+    },
+    {
+      "path": "assets/models/candy.glb",
+      "bytes": 4952036,
+      "sha256": "1b8dc6075dc3a377597037ea61ceb80f0a7ee2465ecc6efd048fc8f62dea2836"
+    },
+    {
+      "path": "assets/images/candy.png",
+      "bytes": 322321,
+      "sha256": "9ed24726b3061796b5dd9bc267ddcf07a75cf54779c5a855ae2125e544b6efa2"
+    },
+    {
+      "path": "assets/diagnostics/candy-top.png",
+      "bytes": 118673,
+      "sha256": "bc9c869742215a7c285b4e30175ef9d23931f8e99fb16b8aa6b2cb8ecfa9bee4"
+    },
+    {
+      "path": "assets/diagnostics/candy-front.png",
+      "bytes": 135506,
+      "sha256": "b16f5926c4e6505e8c64ff4e602d61dabfb639401602fa96b4ac92b5e8b60d0b"
+    },
+    {
+      "path": "assets/diagnostics/candy-side.png",
+      "bytes": 106026,
+      "sha256": "e85e7383ee42ecfd10f4ab17b446640237b89af2c5b53e55cd3fba90fa6c1a53"
+    },
+    {
+      "path": "assets/models/yogurt.glb",
+      "bytes": 2870524,
+      "sha256": "359cefa73e3c6c74406b8de4debf645357a88b750099542d010a3e9fae378f98"
+    },
+    {
+      "path": "assets/images/yogurt.png",
+      "bytes": 332032,
+      "sha256": "defb396e43007ed2dead81034f40a3ef00e7cb0cf2e22d1b219fffe00a132ad9"
+    },
+    {
+      "path": "assets/diagnostics/yogurt-top.png",
+      "bytes": 129786,
+      "sha256": "ee6621f8f5022e0d75515c2c184b2511753a9d87db3e148463a86fa397710dd6"
+    },
+    {
+      "path": "assets/diagnostics/yogurt-front.png",
+      "bytes": 102970,
+      "sha256": "c452a2e49066c5078a28b130fd27694dbe4e1fe6743a96a54338ec891411cdef"
+    },
+    {
+      "path": "assets/diagnostics/yogurt-side.png",
+      "bytes": 152413,
+      "sha256": "cd6b3f53beef625f48c7cfd7b06e620f00e5061b07f18468159db1f2383cdf7c"
+    },
+    {
+      "path": "assets/models/eggs.glb",
+      "bytes": 502532,
+      "sha256": "71c08c6b870957d61d517950cb97c0c13ceb215daf82deee16c06e22e965ff34"
+    },
+    {
+      "path": "assets/images/eggs.png",
+      "bytes": 322748,
+      "sha256": "452b744480568295dcfde23870d060933877a9c9dd86026b0e5a2cc5e72346db"
+    },
+    {
+      "path": "assets/diagnostics/eggs-top.png",
+      "bytes": 128698,
+      "sha256": "9981d68d847f5e80fba9f9ab17843f5cf4eb28d745f002fe900741eda635aba4"
+    },
+    {
+      "path": "assets/diagnostics/eggs-front.png",
+      "bytes": 91940,
+      "sha256": "7eb2842a0e11ac2735d5ccf747e15529ce2da9ec594646334bbe5b1c5809c81e"
+    },
+    {
+      "path": "assets/diagnostics/eggs-side.png",
+      "bytes": 123338,
+      "sha256": "966551972ffa661bdf7d42fde08c425df28d8d260d5904e6790c1ca3617b95f9"
+    },
+    {
+      "path": "assets/models/apples.glb",
+      "bytes": 1335144,
+      "sha256": "a038d67099c2fee086bab0077fce24cfcd9ba376a153dcbc8ce02d6df8a2b2a6"
+    },
+    {
+      "path": "assets/images/apples.png",
+      "bytes": 249400,
+      "sha256": "1fab385d16f0716533f3c6e0c74eba6a9407ebc17f06bcb70f8e23bba7299afc"
+    },
+    {
+      "path": "assets/diagnostics/apples-top.png",
+      "bytes": 92179,
+      "sha256": "4f679baab1669592e79c3a2f7b2ab941abf54d5a034446d293a6e7386223b221"
+    },
+    {
+      "path": "assets/diagnostics/apples-front.png",
+      "bytes": 89324,
+      "sha256": "fc0748ef3d4d23799f8cd0a81a4403097d4e418589ec150bab34ef1ed765cef8"
+    },
+    {
+      "path": "assets/diagnostics/apples-side.png",
+      "bytes": 101232,
+      "sha256": "53d14f48ce0eebdf13a63df1510fb5dda78435b91c971176168fdca6a3da4c12"
+    },
+    {
+      "path": "assets/images/entrance-background.jpg",
+      "bytes": 119265,
+      "sha256": "5b072123c587cb10a5a258c2234e7597582cb8f45344bb8dd8fbee70ee752560"
+    }
+  ],
+  "runtime": "Modern browser with WebGL, import maps and Blob modules; audio synthesized locally."
+}

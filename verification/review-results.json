@@ -1,0 +1,2784 @@
+[
+  {
+    "id": "visual.silhouette",
+    "status": "pass",
+    "origin": "Codex root, same-agent review after integrating the user-supplied roll pack, 2026-10-11",
+    "reason": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct.",
+    "evidence": [
+      {
+        "artifact_id": "preview.apples",
+        "sha256": "1fab385d16f0716533f3c6e0c74eba6a9407ebc17f06bcb70f8e23bba7299afc",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.batteries",
+        "sha256": "0f067edce37bc9f322466840dc5614dd8c6acd87883a0f30a052485c5b7b2134",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.brushes",
+        "sha256": "e2779086ce26e1af114ca637721c12600682d105c64112257f141ae1f9269b5b",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.candy",
+        "sha256": "9ed24726b3061796b5dd9bc267ddcf07a75cf54779c5a855ae2125e544b6efa2",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.chips",
+        "sha256": "15fd8ec87e62e58d9e74908c7e314a585254ab4e5b6b1bdbbd9ef2c3e637adc3",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.eggs",
+        "sha256": "452b744480568295dcfde23870d060933877a9c9dd86026b0e5a2cc5e72346db",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.mugs",
+        "sha256": "9a924c2ffccf6282d0caa15a756c45eacefdc5bea611a8a126f29f909653c705",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.pencils",
+        "sha256": "364b6f7355913c64ef89ac94da7fca36fe179ac16581a3fdd8b4d8bb8c548323",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.rolls",
+        "sha256": "15c97b2a10919f8a102b228133d8bf2dd81a926510c6333c90e35d247ab30c57",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.toothpaste",
+        "sha256": "4ccd481a5dcc4b96006677f14bc863ee1028e8937cdfa63f7426554974dbe57e",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.water",
+        "sha256": "5e8b6b2027c0fb5b6a78028781a17799a77bbfefb26929ddbf1ac05dcdd6c37e",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.yogurt",
+        "sha256": "defb396e43007ed2dead81034f40a3ef00e7cb0cf2e22d1b219fffe00a132ad9",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.apples-front",
+        "sha256": "fc0748ef3d4d23799f8cd0a81a4403097d4e418589ec150bab34ef1ed765cef8",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.apples-side",
+        "sha256": "53d14f48ce0eebdf13a63df1510fb5dda78435b91c971176168fdca6a3da4c12",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.apples-top",
+        "sha256": "4f679baab1669592e79c3a2f7b2ab941abf54d5a034446d293a6e7386223b221",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.batteries-front",
+        "sha256": "cb0f5e57113c77525cc903bb83518f6b2b588f300f3b3db890b2b5e528864bd2",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.batteries-side",
+        "sha256": "78dd4b2b2d638f70b86aaec8b0e20f3f974c8fee788c98b52cc9ff1a5d406dc7",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.batteries-top",
+        "sha256": "f518e3fd8f65299a3a8d380657daff2b49ae9578fb94f85c0ae69f56cc742c73",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.brushes-front",
+        "sha256": "78fb4847931bca5efeb5844f9646a939e44494165dafb1d2dc26566d6c1aedc0",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.brushes-side",
+        "sha256": "77191edbbaf546e81c3da8f9d2390f7e0637788b945048ecd0c097694313ff21",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.brushes-top",
+        "sha256": "3229eaf2dd9bf1a636008fa806c4df127bbf5ec9af8b9cb100030611b6c20050",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.candy-front",
+        "sha256": "b16f5926c4e6505e8c64ff4e602d61dabfb639401602fa96b4ac92b5e8b60d0b",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.candy-side",
+        "sha256": "e85e7383ee42ecfd10f4ab17b446640237b89af2c5b53e55cd3fba90fa6c1a53",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.candy-top",
+        "sha256": "bc9c869742215a7c285b4e30175ef9d23931f8e99fb16b8aa6b2cb8ecfa9bee4",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.chips-front",
+        "sha256": "9ad0078295b84436bf54d19d9cfb39c0335de7820a6305747fdcaf52a63c6fdd",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.chips-side",
+        "sha256": "d4c92675a86fdd53aafde7307a537237349e1525cee62d7a1160b100cb316655",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.chips-top",
+        "sha256": "75ad67759742b5a106d6843e1d3f3d9d95168f55a2c7327cc0eced5e6f8225aa",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.eggs-front",
+        "sha256": "7eb2842a0e11ac2735d5ccf747e15529ce2da9ec594646334bbe5b1c5809c81e",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.eggs-side",
+        "sha256": "966551972ffa661bdf7d42fde08c425df28d8d260d5904e6790c1ca3617b95f9",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.eggs-top",
+        "sha256": "9981d68d847f5e80fba9f9ab17843f5cf4eb28d745f002fe900741eda635aba4",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.mugs-front",
+        "sha256": "dc65e910f295629a86f782f288892f788ced31cfec84bc6fe38edf1c8ee5a060",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.mugs-side",
+        "sha256": "496f786451d68c6577237fe817e1dccd2efeef46aedd00e6f31b8785c0ec8170",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.mugs-top",
+        "sha256": "989c9bdac77781f4b5d9c8ac158d256f5b4f93b6d33cf2cc728f5e0444977a6e",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.pencils-front",
+        "sha256": "b8e2db84151f61c9e971e9c8210a91fd51c360bb6e7093a1db82bf99e911d1ab",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.pencils-side",
+        "sha256": "3c16351116a8819c19c2568545ffd050b73e2feffff531d610b9c2e148e598ab",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.pencils-top",
+        "sha256": "7d03a38a8af8c2fedd062e22b82cdf3d5b4357b16268e71fc92591fd29d1901a",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.rolls-front",
+        "sha256": "159d00c40b4b4e42e3de71c2847e07d1ecd8eeeb6464b7c5e15fa3764dcecbba",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.rolls-side",
+        "sha256": "58cd51a24987152f277f54009b8a10ddfd474968e27c28425941d4779a8d3637",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.rolls-top",
+        "sha256": "5000f33d412977d8db3e31be31168c04d4055e6b42ba2889656ad56aec5d8bc5",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.toothpaste-front",
+        "sha256": "a722abb302b3ff493040bcbf20838b1142ddedfbbbacb47e87a03e27de82a954",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.toothpaste-side",
+        "sha256": "5d5889dd28c8d1374d1583ca9e65c4a4366554a6c3f4666a834d430f7723b41e",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.toothpaste-top",
+        "sha256": "cde32dd5a867aa2867ccc7627dc489c49ddd515f6c05790b68d57bebbda56b3e",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.water-front",
+        "sha256": "d7670f0fd3e025f0f669254aca4e6f853609849e0927dfe7ae8539c1841e49ba",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.water-side",
+        "sha256": "f573b8f9c502845c4910752b1010b75eef97d60e85af0094766588e0b87acef0",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.water-top",
+        "sha256": "f08d5451bece5637376271787bb58315e03bbc9376d36c57c9dd15c4c3b59f7a",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.yogurt-front",
+        "sha256": "c452a2e49066c5078a28b130fd27694dbe4e1fe6743a96a54338ec891411cdef",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.yogurt-side",
+        "sha256": "cd6b3f53beef625f48c7cfd7b06e620f00e5061b07f18468159db1f2383cdf7c",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      },
+      {
+        "artifact_id": "preview.yogurt-top",
+        "sha256": "ee6621f8f5022e0d75515c2c184b2511753a9d87db3e148463a86fa397710dd6",
+        "observation": "All twelve products are complete and recognisable in main and diagnostic views; hollow mugs, bottles with shoulders, tall cans, egg shapes and organic apples are distinct."
+      }
+    ]
+  },
+  {
+    "id": "visual.proportion",
+    "status": "pass",
+    "origin": "Codex root, same-agent review after integrating the user-supplied roll pack, 2026-10-11",
+    "reason": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset.",
+    "evidence": [
+      {
+        "artifact_id": "preview.apples",
+        "sha256": "1fab385d16f0716533f3c6e0c74eba6a9407ebc17f06bcb70f8e23bba7299afc",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.batteries",
+        "sha256": "0f067edce37bc9f322466840dc5614dd8c6acd87883a0f30a052485c5b7b2134",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.brushes",
+        "sha256": "e2779086ce26e1af114ca637721c12600682d105c64112257f141ae1f9269b5b",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.candy",
+        "sha256": "9ed24726b3061796b5dd9bc267ddcf07a75cf54779c5a855ae2125e544b6efa2",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.chips",
+        "sha256": "15fd8ec87e62e58d9e74908c7e314a585254ab4e5b6b1bdbbd9ef2c3e637adc3",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.eggs",
+        "sha256": "452b744480568295dcfde23870d060933877a9c9dd86026b0e5a2cc5e72346db",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.mugs",
+        "sha256": "9a924c2ffccf6282d0caa15a756c45eacefdc5bea611a8a126f29f909653c705",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.pencils",
+        "sha256": "364b6f7355913c64ef89ac94da7fca36fe179ac16581a3fdd8b4d8bb8c548323",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.rolls",
+        "sha256": "15c97b2a10919f8a102b228133d8bf2dd81a926510c6333c90e35d247ab30c57",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.toothpaste",
+        "sha256": "4ccd481a5dcc4b96006677f14bc863ee1028e8937cdfa63f7426554974dbe57e",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.water",
+        "sha256": "5e8b6b2027c0fb5b6a78028781a17799a77bbfefb26929ddbf1ac05dcdd6c37e",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.yogurt",
+        "sha256": "defb396e43007ed2dead81034f40a3ef00e7cb0cf2e22d1b219fffe00a132ad9",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.apples-front",
+        "sha256": "fc0748ef3d4d23799f8cd0a81a4403097d4e418589ec150bab34ef1ed765cef8",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.apples-side",
+        "sha256": "53d14f48ce0eebdf13a63df1510fb5dda78435b91c971176168fdca6a3da4c12",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.apples-top",
+        "sha256": "4f679baab1669592e79c3a2f7b2ab941abf54d5a034446d293a6e7386223b221",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.batteries-front",
+        "sha256": "cb0f5e57113c77525cc903bb83518f6b2b588f300f3b3db890b2b5e528864bd2",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.batteries-side",
+        "sha256": "78dd4b2b2d638f70b86aaec8b0e20f3f974c8fee788c98b52cc9ff1a5d406dc7",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.batteries-top",
+        "sha256": "f518e3fd8f65299a3a8d380657daff2b49ae9578fb94f85c0ae69f56cc742c73",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.brushes-front",
+        "sha256": "78fb4847931bca5efeb5844f9646a939e44494165dafb1d2dc26566d6c1aedc0",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.brushes-side",
+        "sha256": "77191edbbaf546e81c3da8f9d2390f7e0637788b945048ecd0c097694313ff21",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.brushes-top",
+        "sha256": "3229eaf2dd9bf1a636008fa806c4df127bbf5ec9af8b9cb100030611b6c20050",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.candy-front",
+        "sha256": "b16f5926c4e6505e8c64ff4e602d61dabfb639401602fa96b4ac92b5e8b60d0b",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.candy-side",
+        "sha256": "e85e7383ee42ecfd10f4ab17b446640237b89af2c5b53e55cd3fba90fa6c1a53",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.candy-top",
+        "sha256": "bc9c869742215a7c285b4e30175ef9d23931f8e99fb16b8aa6b2cb8ecfa9bee4",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.chips-front",
+        "sha256": "9ad0078295b84436bf54d19d9cfb39c0335de7820a6305747fdcaf52a63c6fdd",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.chips-side",
+        "sha256": "d4c92675a86fdd53aafde7307a537237349e1525cee62d7a1160b100cb316655",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.chips-top",
+        "sha256": "75ad67759742b5a106d6843e1d3f3d9d95168f55a2c7327cc0eced5e6f8225aa",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.eggs-front",
+        "sha256": "7eb2842a0e11ac2735d5ccf747e15529ce2da9ec594646334bbe5b1c5809c81e",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.eggs-side",
+        "sha256": "966551972ffa661bdf7d42fde08c425df28d8d260d5904e6790c1ca3617b95f9",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.eggs-top",
+        "sha256": "9981d68d847f5e80fba9f9ab17843f5cf4eb28d745f002fe900741eda635aba4",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.mugs-front",
+        "sha256": "dc65e910f295629a86f782f288892f788ced31cfec84bc6fe38edf1c8ee5a060",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.mugs-side",
+        "sha256": "496f786451d68c6577237fe817e1dccd2efeef46aedd00e6f31b8785c0ec8170",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.mugs-top",
+        "sha256": "989c9bdac77781f4b5d9c8ac158d256f5b4f93b6d33cf2cc728f5e0444977a6e",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.pencils-front",
+        "sha256": "b8e2db84151f61c9e971e9c8210a91fd51c360bb6e7093a1db82bf99e911d1ab",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.pencils-side",
+        "sha256": "3c16351116a8819c19c2568545ffd050b73e2feffff531d610b9c2e148e598ab",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.pencils-top",
+        "sha256": "7d03a38a8af8c2fedd062e22b82cdf3d5b4357b16268e71fc92591fd29d1901a",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.rolls-front",
+        "sha256": "159d00c40b4b4e42e3de71c2847e07d1ecd8eeeb6464b7c5e15fa3764dcecbba",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.rolls-side",
+        "sha256": "58cd51a24987152f277f54009b8a10ddfd474968e27c28425941d4779a8d3637",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.rolls-top",
+        "sha256": "5000f33d412977d8db3e31be31168c04d4055e6b42ba2889656ad56aec5d8bc5",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.toothpaste-front",
+        "sha256": "a722abb302b3ff493040bcbf20838b1142ddedfbbbacb47e87a03e27de82a954",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.toothpaste-side",
+        "sha256": "5d5889dd28c8d1374d1583ca9e65c4a4366554a6c3f4666a834d430f7723b41e",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.toothpaste-top",
+        "sha256": "cde32dd5a867aa2867ccc7627dc489c49ddd515f6c05790b68d57bebbda56b3e",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.water-front",
+        "sha256": "d7670f0fd3e025f0f669254aca4e6f853609849e0927dfe7ae8539c1841e49ba",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.water-side",
+        "sha256": "f573b8f9c502845c4910752b1010b75eef97d60e85af0094766588e0b87acef0",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.water-top",
+        "sha256": "f08d5451bece5637376271787bb58315e03bbc9376d36c57c9dd15c4c3b59f7a",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.yogurt-front",
+        "sha256": "c452a2e49066c5078a28b130fd27694dbe4e1fe6743a96a54338ec891411cdef",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.yogurt-side",
+        "sha256": "cd6b3f53beef625f48c7cfd7b06e620f00e5061b07f18468159db1f2383cdf7c",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      },
+      {
+        "artifact_id": "preview.yogurt-top",
+        "sha256": "ee6621f8f5022e0d75515c2c184b2511753a9d87db3e148463a86fa397710dd6",
+        "observation": "Front, top and side views show plausible manufactured proportions. Import tests separately confirm the measured metric bounding boxes for every asset."
+      }
+    ]
+  },
+  {
+    "id": "visual.structure",
+    "status": "pass",
+    "origin": "Codex root, same-agent review after integrating the user-supplied roll pack, 2026-10-11",
+    "reason": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved.",
+    "evidence": [
+      {
+        "artifact_id": "preview.apples",
+        "sha256": "1fab385d16f0716533f3c6e0c74eba6a9407ebc17f06bcb70f8e23bba7299afc",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.batteries",
+        "sha256": "0f067edce37bc9f322466840dc5614dd8c6acd87883a0f30a052485c5b7b2134",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.brushes",
+        "sha256": "e2779086ce26e1af114ca637721c12600682d105c64112257f141ae1f9269b5b",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.candy",
+        "sha256": "9ed24726b3061796b5dd9bc267ddcf07a75cf54779c5a855ae2125e544b6efa2",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.chips",
+        "sha256": "15fd8ec87e62e58d9e74908c7e314a585254ab4e5b6b1bdbbd9ef2c3e637adc3",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.eggs",
+        "sha256": "452b744480568295dcfde23870d060933877a9c9dd86026b0e5a2cc5e72346db",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.mugs",
+        "sha256": "9a924c2ffccf6282d0caa15a756c45eacefdc5bea611a8a126f29f909653c705",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.pencils",
+        "sha256": "364b6f7355913c64ef89ac94da7fca36fe179ac16581a3fdd8b4d8bb8c548323",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.rolls",
+        "sha256": "15c97b2a10919f8a102b228133d8bf2dd81a926510c6333c90e35d247ab30c57",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.toothpaste",
+        "sha256": "4ccd481a5dcc4b96006677f14bc863ee1028e8937cdfa63f7426554974dbe57e",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.water",
+        "sha256": "5e8b6b2027c0fb5b6a78028781a17799a77bbfefb26929ddbf1ac05dcdd6c37e",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.yogurt",
+        "sha256": "defb396e43007ed2dead81034f40a3ef00e7cb0cf2e22d1b219fffe00a132ad9",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.apples-front",
+        "sha256": "fc0748ef3d4d23799f8cd0a81a4403097d4e418589ec150bab34ef1ed765cef8",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.apples-side",
+        "sha256": "53d14f48ce0eebdf13a63df1510fb5dda78435b91c971176168fdca6a3da4c12",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.apples-top",
+        "sha256": "4f679baab1669592e79c3a2f7b2ab941abf54d5a034446d293a6e7386223b221",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.batteries-front",
+        "sha256": "cb0f5e57113c77525cc903bb83518f6b2b588f300f3b3db890b2b5e528864bd2",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.batteries-side",
+        "sha256": "78dd4b2b2d638f70b86aaec8b0e20f3f974c8fee788c98b52cc9ff1a5d406dc7",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.batteries-top",
+        "sha256": "f518e3fd8f65299a3a8d380657daff2b49ae9578fb94f85c0ae69f56cc742c73",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.brushes-front",
+        "sha256": "78fb4847931bca5efeb5844f9646a939e44494165dafb1d2dc26566d6c1aedc0",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.brushes-side",
+        "sha256": "77191edbbaf546e81c3da8f9d2390f7e0637788b945048ecd0c097694313ff21",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.brushes-top",
+        "sha256": "3229eaf2dd9bf1a636008fa806c4df127bbf5ec9af8b9cb100030611b6c20050",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.candy-front",
+        "sha256": "b16f5926c4e6505e8c64ff4e602d61dabfb639401602fa96b4ac92b5e8b60d0b",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.candy-side",
+        "sha256": "e85e7383ee42ecfd10f4ab17b446640237b89af2c5b53e55cd3fba90fa6c1a53",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.candy-top",
+        "sha256": "bc9c869742215a7c285b4e30175ef9d23931f8e99fb16b8aa6b2cb8ecfa9bee4",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.chips-front",
+        "sha256": "9ad0078295b84436bf54d19d9cfb39c0335de7820a6305747fdcaf52a63c6fdd",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.chips-side",
+        "sha256": "d4c92675a86fdd53aafde7307a537237349e1525cee62d7a1160b100cb316655",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.chips-top",
+        "sha256": "75ad67759742b5a106d6843e1d3f3d9d95168f55a2c7327cc0eced5e6f8225aa",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.eggs-front",
+        "sha256": "7eb2842a0e11ac2735d5ccf747e15529ce2da9ec594646334bbe5b1c5809c81e",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.eggs-side",
+        "sha256": "966551972ffa661bdf7d42fde08c425df28d8d260d5904e6790c1ca3617b95f9",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.eggs-top",
+        "sha256": "9981d68d847f5e80fba9f9ab17843f5cf4eb28d745f002fe900741eda635aba4",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.mugs-front",
+        "sha256": "dc65e910f295629a86f782f288892f788ced31cfec84bc6fe38edf1c8ee5a060",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.mugs-side",
+        "sha256": "496f786451d68c6577237fe817e1dccd2efeef46aedd00e6f31b8785c0ec8170",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.mugs-top",
+        "sha256": "989c9bdac77781f4b5d9c8ac158d256f5b4f93b6d33cf2cc728f5e0444977a6e",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.pencils-front",
+        "sha256": "b8e2db84151f61c9e971e9c8210a91fd51c360bb6e7093a1db82bf99e911d1ab",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.pencils-side",
+        "sha256": "3c16351116a8819c19c2568545ffd050b73e2feffff531d610b9c2e148e598ab",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.pencils-top",
+        "sha256": "7d03a38a8af8c2fedd062e22b82cdf3d5b4357b16268e71fc92591fd29d1901a",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.rolls-front",
+        "sha256": "159d00c40b4b4e42e3de71c2847e07d1ecd8eeeb6464b7c5e15fa3764dcecbba",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.rolls-side",
+        "sha256": "58cd51a24987152f277f54009b8a10ddfd474968e27c28425941d4779a8d3637",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.rolls-top",
+        "sha256": "5000f33d412977d8db3e31be31168c04d4055e6b42ba2889656ad56aec5d8bc5",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.toothpaste-front",
+        "sha256": "a722abb302b3ff493040bcbf20838b1142ddedfbbbacb47e87a03e27de82a954",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.toothpaste-side",
+        "sha256": "5d5889dd28c8d1374d1583ca9e65c4a4366554a6c3f4666a834d430f7723b41e",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.toothpaste-top",
+        "sha256": "cde32dd5a867aa2867ccc7627dc489c49ddd515f6c05790b68d57bebbda56b3e",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.water-front",
+        "sha256": "d7670f0fd3e025f0f669254aca4e6f853609849e0927dfe7ae8539c1841e49ba",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.water-side",
+        "sha256": "f573b8f9c502845c4910752b1010b75eef97d60e85af0094766588e0b87acef0",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.water-top",
+        "sha256": "f08d5451bece5637376271787bb58315e03bbc9376d36c57c9dd15c4c3b59f7a",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.yogurt-front",
+        "sha256": "c452a2e49066c5078a28b130fd27694dbe4e1fe6743a96a54338ec891411cdef",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.yogurt-side",
+        "sha256": "cd6b3f53beef625f48c7cfd7b06e620f00e5061b07f18468159db1f2383cdf7c",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      },
+      {
+        "artifact_id": "preview.yogurt-top",
+        "sha256": "ee6621f8f5022e0d75515c2c184b2511753a9d87db3e148463a86fa397710dd6",
+        "observation": "Roll cores, mug walls and handles, brush heads and grips, AA terminals, bottle caps, foil yoghurt seals and egg sockets are visible. User pencil mesh is preserved."
+      }
+    ]
+  },
+  {
+    "id": "visual.composition",
+    "status": "pass",
+    "origin": "Codex root, same-agent review after integrating the user-supplied roll pack, 2026-10-11",
+    "reason": "Six shelf tickets in each actual rack contain only the product name and price, with no stock counts, unit text or magnifier. Tickets stay below the goods; all twelve product groups fit the rack.",
+    "evidence": [
+      {
+        "artifact_id": "preview.apples",
+        "sha256": "1fab385d16f0716533f3c6e0c74eba6a9407ebc17f06bcb70f8e23bba7299afc",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.batteries",
+        "sha256": "0f067edce37bc9f322466840dc5614dd8c6acd87883a0f30a052485c5b7b2134",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.brushes",
+        "sha256": "e2779086ce26e1af114ca637721c12600682d105c64112257f141ae1f9269b5b",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.candy",
+        "sha256": "9ed24726b3061796b5dd9bc267ddcf07a75cf54779c5a855ae2125e544b6efa2",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.chips",
+        "sha256": "15fd8ec87e62e58d9e74908c7e314a585254ab4e5b6b1bdbbd9ef2c3e637adc3",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.eggs",
+        "sha256": "452b744480568295dcfde23870d060933877a9c9dd86026b0e5a2cc5e72346db",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.mugs",
+        "sha256": "9a924c2ffccf6282d0caa15a756c45eacefdc5bea611a8a126f29f909653c705",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.pencils",
+        "sha256": "364b6f7355913c64ef89ac94da7fca36fe179ac16581a3fdd8b4d8bb8c548323",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.rolls",
+        "sha256": "15c97b2a10919f8a102b228133d8bf2dd81a926510c6333c90e35d247ab30c57",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.toothpaste",
+        "sha256": "4ccd481a5dcc4b96006677f14bc863ee1028e8937cdfa63f7426554974dbe57e",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.water",
+        "sha256": "5e8b6b2027c0fb5b6a78028781a17799a77bbfefb26929ddbf1ac05dcdd6c37e",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.yogurt",
+        "sha256": "defb396e43007ed2dead81034f40a3ef00e7cb0cf2e22d1b219fffe00a132ad9",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.apples-front",
+        "sha256": "fc0748ef3d4d23799f8cd0a81a4403097d4e418589ec150bab34ef1ed765cef8",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.apples-side",
+        "sha256": "53d14f48ce0eebdf13a63df1510fb5dda78435b91c971176168fdca6a3da4c12",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.apples-top",
+        "sha256": "4f679baab1669592e79c3a2f7b2ab941abf54d5a034446d293a6e7386223b221",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.batteries-front",
+        "sha256": "cb0f5e57113c77525cc903bb83518f6b2b588f300f3b3db890b2b5e528864bd2",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.batteries-side",
+        "sha256": "78dd4b2b2d638f70b86aaec8b0e20f3f974c8fee788c98b52cc9ff1a5d406dc7",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.batteries-top",
+        "sha256": "f518e3fd8f65299a3a8d380657daff2b49ae9578fb94f85c0ae69f56cc742c73",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.brushes-front",
+        "sha256": "78fb4847931bca5efeb5844f9646a939e44494165dafb1d2dc26566d6c1aedc0",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.brushes-side",
+        "sha256": "77191edbbaf546e81c3da8f9d2390f7e0637788b945048ecd0c097694313ff21",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.brushes-top",
+        "sha256": "3229eaf2dd9bf1a636008fa806c4df127bbf5ec9af8b9cb100030611b6c20050",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.candy-front",
+        "sha256": "b16f5926c4e6505e8c64ff4e602d61dabfb639401602fa96b4ac92b5e8b60d0b",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.candy-side",
+        "sha256": "e85e7383ee42ecfd10f4ab17b446640237b89af2c5b53e55cd3fba90fa6c1a53",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.candy-top",
+        "sha256": "bc9c869742215a7c285b4e30175ef9d23931f8e99fb16b8aa6b2cb8ecfa9bee4",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.chips-front",
+        "sha256": "9ad0078295b84436bf54d19d9cfb39c0335de7820a6305747fdcaf52a63c6fdd",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.chips-side",
+        "sha256": "d4c92675a86fdd53aafde7307a537237349e1525cee62d7a1160b100cb316655",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.chips-top",
+        "sha256": "75ad67759742b5a106d6843e1d3f3d9d95168f55a2c7327cc0eced5e6f8225aa",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.eggs-front",
+        "sha256": "7eb2842a0e11ac2735d5ccf747e15529ce2da9ec594646334bbe5b1c5809c81e",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.eggs-side",
+        "sha256": "966551972ffa661bdf7d42fde08c425df28d8d260d5904e6790c1ca3617b95f9",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.eggs-top",
+        "sha256": "9981d68d847f5e80fba9f9ab17843f5cf4eb28d745f002fe900741eda635aba4",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.mugs-front",
+        "sha256": "dc65e910f295629a86f782f288892f788ced31cfec84bc6fe38edf1c8ee5a060",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.mugs-side",
+        "sha256": "496f786451d68c6577237fe817e1dccd2efeef46aedd00e6f31b8785c0ec8170",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.mugs-top",
+        "sha256": "989c9bdac77781f4b5d9c8ac158d256f5b4f93b6d33cf2cc728f5e0444977a6e",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.pencils-front",
+        "sha256": "b8e2db84151f61c9e971e9c8210a91fd51c360bb6e7093a1db82bf99e911d1ab",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.pencils-side",
+        "sha256": "3c16351116a8819c19c2568545ffd050b73e2feffff531d610b9c2e148e598ab",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.pencils-top",
+        "sha256": "7d03a38a8af8c2fedd062e22b82cdf3d5b4357b16268e71fc92591fd29d1901a",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.rolls-front",
+        "sha256": "159d00c40b4b4e42e3de71c2847e07d1ecd8eeeb6464b7c5e15fa3764dcecbba",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.rolls-side",
+        "sha256": "58cd51a24987152f277f54009b8a10ddfd474968e27c28425941d4779a8d3637",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.rolls-top",
+        "sha256": "5000f33d412977d8db3e31be31168c04d4055e6b42ba2889656ad56aec5d8bc5",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.toothpaste-front",
+        "sha256": "a722abb302b3ff493040bcbf20838b1142ddedfbbbacb47e87a03e27de82a954",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.toothpaste-side",
+        "sha256": "5d5889dd28c8d1374d1583ca9e65c4a4366554a6c3f4666a834d430f7723b41e",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.toothpaste-top",
+        "sha256": "cde32dd5a867aa2867ccc7627dc489c49ddd515f6c05790b68d57bebbda56b3e",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.water-front",
+        "sha256": "d7670f0fd3e025f0f669254aca4e6f853609849e0927dfe7ae8539c1841e49ba",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.water-side",
+        "sha256": "f573b8f9c502845c4910752b1010b75eef97d60e85af0094766588e0b87acef0",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.water-top",
+        "sha256": "f08d5451bece5637376271787bb58315e03bbc9376d36c57c9dd15c4c3b59f7a",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.yogurt-front",
+        "sha256": "c452a2e49066c5078a28b130fd27694dbe4e1fe6743a96a54338ec891411cdef",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.yogurt-side",
+        "sha256": "cd6b3f53beef625f48c7cfd7b06e620f00e5061b07f18468159db1f2383cdf7c",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      },
+      {
+        "artifact_id": "preview.yogurt-top",
+        "sha256": "ee6621f8f5022e0d75515c2c184b2511753a9d87db3e148463a86fa397710dd6",
+        "observation": "Each product group is centred and fully within its image. Main images leave clear margins; the web layout separates price labels from the image area."
+      }
+    ]
+  },
+  {
+    "id": "visual.material",
+    "status": "pass",
+    "origin": "Codex root, same-agent review after integrating the user-supplied roll pack, 2026-10-11",
+    "reason": "Compared current reference adaptations in actual WebGL rack views and model previews: red/yellow textured apple skin and recessed stem, fine pale paper layers and clear film, printed carton panels, curved toothbrush grips and white tufts, red-capped transparent PET with red/white Chinese labels. These are rebuilt 3D assets; photographs guide the forms and materials.",
+    "evidence": [
+      {
+        "artifact_id": "preview.apples",
+        "sha256": "1fab385d16f0716533f3c6e0c74eba6a9407ebc17f06bcb70f8e23bba7299afc",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.batteries",
+        "sha256": "0f067edce37bc9f322466840dc5614dd8c6acd87883a0f30a052485c5b7b2134",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.brushes",
+        "sha256": "e2779086ce26e1af114ca637721c12600682d105c64112257f141ae1f9269b5b",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.candy",
+        "sha256": "9ed24726b3061796b5dd9bc267ddcf07a75cf54779c5a855ae2125e544b6efa2",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.chips",
+        "sha256": "15fd8ec87e62e58d9e74908c7e314a585254ab4e5b6b1bdbbd9ef2c3e637adc3",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.eggs",
+        "sha256": "452b744480568295dcfde23870d060933877a9c9dd86026b0e5a2cc5e72346db",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.mugs",
+        "sha256": "9a924c2ffccf6282d0caa15a756c45eacefdc5bea611a8a126f29f909653c705",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.pencils",
+        "sha256": "364b6f7355913c64ef89ac94da7fca36fe179ac16581a3fdd8b4d8bb8c548323",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.rolls",
+        "sha256": "15c97b2a10919f8a102b228133d8bf2dd81a926510c6333c90e35d247ab30c57",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.toothpaste",
+        "sha256": "4ccd481a5dcc4b96006677f14bc863ee1028e8937cdfa63f7426554974dbe57e",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.water",
+        "sha256": "5e8b6b2027c0fb5b6a78028781a17799a77bbfefb26929ddbf1ac05dcdd6c37e",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.yogurt",
+        "sha256": "defb396e43007ed2dead81034f40a3ef00e7cb0cf2e22d1b219fffe00a132ad9",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.apples-front",
+        "sha256": "fc0748ef3d4d23799f8cd0a81a4403097d4e418589ec150bab34ef1ed765cef8",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.apples-side",
+        "sha256": "53d14f48ce0eebdf13a63df1510fb5dda78435b91c971176168fdca6a3da4c12",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.apples-top",
+        "sha256": "4f679baab1669592e79c3a2f7b2ab941abf54d5a034446d293a6e7386223b221",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.batteries-front",
+        "sha256": "cb0f5e57113c77525cc903bb83518f6b2b588f300f3b3db890b2b5e528864bd2",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.batteries-side",
+        "sha256": "78dd4b2b2d638f70b86aaec8b0e20f3f974c8fee788c98b52cc9ff1a5d406dc7",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.batteries-top",
+        "sha256": "f518e3fd8f65299a3a8d380657daff2b49ae9578fb94f85c0ae69f56cc742c73",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.brushes-front",
+        "sha256": "78fb4847931bca5efeb5844f9646a939e44494165dafb1d2dc26566d6c1aedc0",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.brushes-side",
+        "sha256": "77191edbbaf546e81c3da8f9d2390f7e0637788b945048ecd0c097694313ff21",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.brushes-top",
+        "sha256": "3229eaf2dd9bf1a636008fa806c4df127bbf5ec9af8b9cb100030611b6c20050",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.candy-front",
+        "sha256": "b16f5926c4e6505e8c64ff4e602d61dabfb639401602fa96b4ac92b5e8b60d0b",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.candy-side",
+        "sha256": "e85e7383ee42ecfd10f4ab17b446640237b89af2c5b53e55cd3fba90fa6c1a53",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.candy-top",
+        "sha256": "bc9c869742215a7c285b4e30175ef9d23931f8e99fb16b8aa6b2cb8ecfa9bee4",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.chips-front",
+        "sha256": "9ad0078295b84436bf54d19d9cfb39c0335de7820a6305747fdcaf52a63c6fdd",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.chips-side",
+        "sha256": "d4c92675a86fdd53aafde7307a537237349e1525cee62d7a1160b100cb316655",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.chips-top",
+        "sha256": "75ad67759742b5a106d6843e1d3f3d9d95168f55a2c7327cc0eced5e6f8225aa",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.eggs-front",
+        "sha256": "7eb2842a0e11ac2735d5ccf747e15529ce2da9ec594646334bbe5b1c5809c81e",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.eggs-side",
+        "sha256": "966551972ffa661bdf7d42fde08c425df28d8d260d5904e6790c1ca3617b95f9",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.eggs-top",
+        "sha256": "9981d68d847f5e80fba9f9ab17843f5cf4eb28d745f002fe900741eda635aba4",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.mugs-front",
+        "sha256": "dc65e910f295629a86f782f288892f788ced31cfec84bc6fe38edf1c8ee5a060",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.mugs-side",
+        "sha256": "496f786451d68c6577237fe817e1dccd2efeef46aedd00e6f31b8785c0ec8170",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.mugs-top",
+        "sha256": "989c9bdac77781f4b5d9c8ac158d256f5b4f93b6d33cf2cc728f5e0444977a6e",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.pencils-front",
+        "sha256": "b8e2db84151f61c9e971e9c8210a91fd51c360bb6e7093a1db82bf99e911d1ab",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.pencils-side",
+        "sha256": "3c16351116a8819c19c2568545ffd050b73e2feffff531d610b9c2e148e598ab",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.pencils-top",
+        "sha256": "7d03a38a8af8c2fedd062e22b82cdf3d5b4357b16268e71fc92591fd29d1901a",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.rolls-front",
+        "sha256": "159d00c40b4b4e42e3de71c2847e07d1ecd8eeeb6464b7c5e15fa3764dcecbba",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.rolls-side",
+        "sha256": "58cd51a24987152f277f54009b8a10ddfd474968e27c28425941d4779a8d3637",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.rolls-top",
+        "sha256": "5000f33d412977d8db3e31be31168c04d4055e6b42ba2889656ad56aec5d8bc5",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.toothpaste-front",
+        "sha256": "a722abb302b3ff493040bcbf20838b1142ddedfbbbacb47e87a03e27de82a954",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.toothpaste-side",
+        "sha256": "5d5889dd28c8d1374d1583ca9e65c4a4366554a6c3f4666a834d430f7723b41e",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.toothpaste-top",
+        "sha256": "cde32dd5a867aa2867ccc7627dc489c49ddd515f6c05790b68d57bebbda56b3e",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.water-front",
+        "sha256": "d7670f0fd3e025f0f669254aca4e6f853609849e0927dfe7ae8539c1841e49ba",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.water-side",
+        "sha256": "f573b8f9c502845c4910752b1010b75eef97d60e85af0094766588e0b87acef0",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.water-top",
+        "sha256": "f08d5451bece5637376271787bb58315e03bbc9376d36c57c9dd15c4c3b59f7a",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.yogurt-front",
+        "sha256": "c452a2e49066c5078a28b130fd27694dbe4e1fe6743a96a54338ec891411cdef",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.yogurt-side",
+        "sha256": "cd6b3f53beef625f48c7cfd7b06e620f00e5061b07f18468159db1f2383cdf7c",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      },
+      {
+        "artifact_id": "preview.yogurt-top",
+        "sha256": "ee6621f8f5022e0d75515c2c184b2511753a9d87db3e148463a86fa397710dd6",
+        "observation": "Viewed full-resolution candy and apple main images plus all four contact sheets: candy pouches have sealed edges and pillow contours; apple pigmentation is textured. Paper, ceramic, foil, PET and shells have distinct shading. Teaching assets are not photographic scans."
+      }
+    ]
+  },
+  {
+    "id": "visual.normals",
+    "status": "pass",
+    "origin": "Codex root, same-agent review after integrating the user-supplied roll pack, 2026-10-11",
+    "reason": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology.",
+    "evidence": [
+      {
+        "artifact_id": "preview.apples",
+        "sha256": "1fab385d16f0716533f3c6e0c74eba6a9407ebc17f06bcb70f8e23bba7299afc",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.batteries",
+        "sha256": "0f067edce37bc9f322466840dc5614dd8c6acd87883a0f30a052485c5b7b2134",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.brushes",
+        "sha256": "e2779086ce26e1af114ca637721c12600682d105c64112257f141ae1f9269b5b",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.candy",
+        "sha256": "9ed24726b3061796b5dd9bc267ddcf07a75cf54779c5a855ae2125e544b6efa2",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.chips",
+        "sha256": "15fd8ec87e62e58d9e74908c7e314a585254ab4e5b6b1bdbbd9ef2c3e637adc3",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.eggs",
+        "sha256": "452b744480568295dcfde23870d060933877a9c9dd86026b0e5a2cc5e72346db",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.mugs",
+        "sha256": "9a924c2ffccf6282d0caa15a756c45eacefdc5bea611a8a126f29f909653c705",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.pencils",
+        "sha256": "364b6f7355913c64ef89ac94da7fca36fe179ac16581a3fdd8b4d8bb8c548323",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.rolls",
+        "sha256": "15c97b2a10919f8a102b228133d8bf2dd81a926510c6333c90e35d247ab30c57",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.toothpaste",
+        "sha256": "4ccd481a5dcc4b96006677f14bc863ee1028e8937cdfa63f7426554974dbe57e",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.water",
+        "sha256": "5e8b6b2027c0fb5b6a78028781a17799a77bbfefb26929ddbf1ac05dcdd6c37e",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.yogurt",
+        "sha256": "defb396e43007ed2dead81034f40a3ef00e7cb0cf2e22d1b219fffe00a132ad9",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.apples-front",
+        "sha256": "fc0748ef3d4d23799f8cd0a81a4403097d4e418589ec150bab34ef1ed765cef8",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.apples-side",
+        "sha256": "53d14f48ce0eebdf13a63df1510fb5dda78435b91c971176168fdca6a3da4c12",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.apples-top",
+        "sha256": "4f679baab1669592e79c3a2f7b2ab941abf54d5a034446d293a6e7386223b221",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.batteries-front",
+        "sha256": "cb0f5e57113c77525cc903bb83518f6b2b588f300f3b3db890b2b5e528864bd2",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.batteries-side",
+        "sha256": "78dd4b2b2d638f70b86aaec8b0e20f3f974c8fee788c98b52cc9ff1a5d406dc7",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.batteries-top",
+        "sha256": "f518e3fd8f65299a3a8d380657daff2b49ae9578fb94f85c0ae69f56cc742c73",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.brushes-front",
+        "sha256": "78fb4847931bca5efeb5844f9646a939e44494165dafb1d2dc26566d6c1aedc0",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.brushes-side",
+        "sha256": "77191edbbaf546e81c3da8f9d2390f7e0637788b945048ecd0c097694313ff21",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.brushes-top",
+        "sha256": "3229eaf2dd9bf1a636008fa806c4df127bbf5ec9af8b9cb100030611b6c20050",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.candy-front",
+        "sha256": "b16f5926c4e6505e8c64ff4e602d61dabfb639401602fa96b4ac92b5e8b60d0b",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.candy-side",
+        "sha256": "e85e7383ee42ecfd10f4ab17b446640237b89af2c5b53e55cd3fba90fa6c1a53",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.candy-top",
+        "sha256": "bc9c869742215a7c285b4e30175ef9d23931f8e99fb16b8aa6b2cb8ecfa9bee4",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.chips-front",
+        "sha256": "9ad0078295b84436bf54d19d9cfb39c0335de7820a6305747fdcaf52a63c6fdd",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.chips-side",
+        "sha256": "d4c92675a86fdd53aafde7307a537237349e1525cee62d7a1160b100cb316655",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.chips-top",
+        "sha256": "75ad67759742b5a106d6843e1d3f3d9d95168f55a2c7327cc0eced5e6f8225aa",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.eggs-front",
+        "sha256": "7eb2842a0e11ac2735d5ccf747e15529ce2da9ec594646334bbe5b1c5809c81e",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.eggs-side",
+        "sha256": "966551972ffa661bdf7d42fde08c425df28d8d260d5904e6790c1ca3617b95f9",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.eggs-top",
+        "sha256": "9981d68d847f5e80fba9f9ab17843f5cf4eb28d745f002fe900741eda635aba4",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.mugs-front",
+        "sha256": "dc65e910f295629a86f782f288892f788ced31cfec84bc6fe38edf1c8ee5a060",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.mugs-side",
+        "sha256": "496f786451d68c6577237fe817e1dccd2efeef46aedd00e6f31b8785c0ec8170",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.mugs-top",
+        "sha256": "989c9bdac77781f4b5d9c8ac158d256f5b4f93b6d33cf2cc728f5e0444977a6e",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.pencils-front",
+        "sha256": "b8e2db84151f61c9e971e9c8210a91fd51c360bb6e7093a1db82bf99e911d1ab",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.pencils-side",
+        "sha256": "3c16351116a8819c19c2568545ffd050b73e2feffff531d610b9c2e148e598ab",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.pencils-top",
+        "sha256": "7d03a38a8af8c2fedd062e22b82cdf3d5b4357b16268e71fc92591fd29d1901a",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.rolls-front",
+        "sha256": "159d00c40b4b4e42e3de71c2847e07d1ecd8eeeb6464b7c5e15fa3764dcecbba",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.rolls-side",
+        "sha256": "58cd51a24987152f277f54009b8a10ddfd474968e27c28425941d4779a8d3637",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.rolls-top",
+        "sha256": "5000f33d412977d8db3e31be31168c04d4055e6b42ba2889656ad56aec5d8bc5",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.toothpaste-front",
+        "sha256": "a722abb302b3ff493040bcbf20838b1142ddedfbbbacb47e87a03e27de82a954",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.toothpaste-side",
+        "sha256": "5d5889dd28c8d1374d1583ca9e65c4a4366554a6c3f4666a834d430f7723b41e",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.toothpaste-top",
+        "sha256": "cde32dd5a867aa2867ccc7627dc489c49ddd515f6c05790b68d57bebbda56b3e",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.water-front",
+        "sha256": "d7670f0fd3e025f0f669254aca4e6f853609849e0927dfe7ae8539c1841e49ba",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.water-side",
+        "sha256": "f573b8f9c502845c4910752b1010b75eef97d60e85af0094766588e0b87acef0",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.water-top",
+        "sha256": "f08d5451bece5637376271787bb58315e03bbc9376d36c57c9dd15c4c3b59f7a",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.yogurt-front",
+        "sha256": "c452a2e49066c5078a28b130fd27694dbe4e1fe6743a96a54338ec891411cdef",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.yogurt-side",
+        "sha256": "cd6b3f53beef625f48c7cfd7b06e620f00e5061b07f18468159db1f2383cdf7c",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      },
+      {
+        "artifact_id": "preview.yogurt-top",
+        "sha256": "ee6621f8f5022e0d75515c2c184b2511753a9d87db3e148463a86fa397710dd6",
+        "observation": "No unexpected black faces or glaring shading discontinuities were visible in the inspected four-view images. This visual check does not prove manifold topology."
+      }
+    ]
+  },
+  {
+    "id": "visual.shadows",
+    "status": "pass",
+    "origin": "Codex root, same-agent review after integrating the user-supplied roll pack, 2026-10-11",
+    "reason": "Actual food rack screenshot shows all egg shells without the upper shelf shadow; egg models do not receive projected shadows. Natural shell shading and grounding shadows on the rack are retained. The accepted food yaw angles are unchanged.",
+    "evidence": [
+      {
+        "artifact_id": "preview.apples",
+        "sha256": "1fab385d16f0716533f3c6e0c74eba6a9407ebc17f06bcb70f8e23bba7299afc",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.batteries",
+        "sha256": "0f067edce37bc9f322466840dc5614dd8c6acd87883a0f30a052485c5b7b2134",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.brushes",
+        "sha256": "e2779086ce26e1af114ca637721c12600682d105c64112257f141ae1f9269b5b",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.candy",
+        "sha256": "9ed24726b3061796b5dd9bc267ddcf07a75cf54779c5a855ae2125e544b6efa2",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.chips",
+        "sha256": "15fd8ec87e62e58d9e74908c7e314a585254ab4e5b6b1bdbbd9ef2c3e637adc3",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.eggs",
+        "sha256": "452b744480568295dcfde23870d060933877a9c9dd86026b0e5a2cc5e72346db",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.mugs",
+        "sha256": "9a924c2ffccf6282d0caa15a756c45eacefdc5bea611a8a126f29f909653c705",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.pencils",
+        "sha256": "364b6f7355913c64ef89ac94da7fca36fe179ac16581a3fdd8b4d8bb8c548323",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.rolls",
+        "sha256": "15c97b2a10919f8a102b228133d8bf2dd81a926510c6333c90e35d247ab30c57",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.toothpaste",
+        "sha256": "4ccd481a5dcc4b96006677f14bc863ee1028e8937cdfa63f7426554974dbe57e",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.water",
+        "sha256": "5e8b6b2027c0fb5b6a78028781a17799a77bbfefb26929ddbf1ac05dcdd6c37e",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.yogurt",
+        "sha256": "defb396e43007ed2dead81034f40a3ef00e7cb0cf2e22d1b219fffe00a132ad9",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.apples-front",
+        "sha256": "fc0748ef3d4d23799f8cd0a81a4403097d4e418589ec150bab34ef1ed765cef8",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.apples-side",
+        "sha256": "53d14f48ce0eebdf13a63df1510fb5dda78435b91c971176168fdca6a3da4c12",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.apples-top",
+        "sha256": "4f679baab1669592e79c3a2f7b2ab941abf54d5a034446d293a6e7386223b221",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.batteries-front",
+        "sha256": "cb0f5e57113c77525cc903bb83518f6b2b588f300f3b3db890b2b5e528864bd2",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.batteries-side",
+        "sha256": "78dd4b2b2d638f70b86aaec8b0e20f3f974c8fee788c98b52cc9ff1a5d406dc7",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.batteries-top",
+        "sha256": "f518e3fd8f65299a3a8d380657daff2b49ae9578fb94f85c0ae69f56cc742c73",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.brushes-front",
+        "sha256": "78fb4847931bca5efeb5844f9646a939e44494165dafb1d2dc26566d6c1aedc0",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.brushes-side",
+        "sha256": "77191edbbaf546e81c3da8f9d2390f7e0637788b945048ecd0c097694313ff21",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.brushes-top",
+        "sha256": "3229eaf2dd9bf1a636008fa806c4df127bbf5ec9af8b9cb100030611b6c20050",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.candy-front",
+        "sha256": "b16f5926c4e6505e8c64ff4e602d61dabfb639401602fa96b4ac92b5e8b60d0b",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.candy-side",
+        "sha256": "e85e7383ee42ecfd10f4ab17b446640237b89af2c5b53e55cd3fba90fa6c1a53",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.candy-top",
+        "sha256": "bc9c869742215a7c285b4e30175ef9d23931f8e99fb16b8aa6b2cb8ecfa9bee4",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.chips-front",
+        "sha256": "9ad0078295b84436bf54d19d9cfb39c0335de7820a6305747fdcaf52a63c6fdd",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.chips-side",
+        "sha256": "d4c92675a86fdd53aafde7307a537237349e1525cee62d7a1160b100cb316655",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.chips-top",
+        "sha256": "75ad67759742b5a106d6843e1d3f3d9d95168f55a2c7327cc0eced5e6f8225aa",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.eggs-front",
+        "sha256": "7eb2842a0e11ac2735d5ccf747e15529ce2da9ec594646334bbe5b1c5809c81e",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.eggs-side",
+        "sha256": "966551972ffa661bdf7d42fde08c425df28d8d260d5904e6790c1ca3617b95f9",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.eggs-top",
+        "sha256": "9981d68d847f5e80fba9f9ab17843f5cf4eb28d745f002fe900741eda635aba4",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.mugs-front",
+        "sha256": "dc65e910f295629a86f782f288892f788ced31cfec84bc6fe38edf1c8ee5a060",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.mugs-side",
+        "sha256": "496f786451d68c6577237fe817e1dccd2efeef46aedd00e6f31b8785c0ec8170",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.mugs-top",
+        "sha256": "989c9bdac77781f4b5d9c8ac158d256f5b4f93b6d33cf2cc728f5e0444977a6e",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.pencils-front",
+        "sha256": "b8e2db84151f61c9e971e9c8210a91fd51c360bb6e7093a1db82bf99e911d1ab",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.pencils-side",
+        "sha256": "3c16351116a8819c19c2568545ffd050b73e2feffff531d610b9c2e148e598ab",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.pencils-top",
+        "sha256": "7d03a38a8af8c2fedd062e22b82cdf3d5b4357b16268e71fc92591fd29d1901a",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.rolls-front",
+        "sha256": "159d00c40b4b4e42e3de71c2847e07d1ecd8eeeb6464b7c5e15fa3764dcecbba",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.rolls-side",
+        "sha256": "58cd51a24987152f277f54009b8a10ddfd474968e27c28425941d4779a8d3637",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.rolls-top",
+        "sha256": "5000f33d412977d8db3e31be31168c04d4055e6b42ba2889656ad56aec5d8bc5",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.toothpaste-front",
+        "sha256": "a722abb302b3ff493040bcbf20838b1142ddedfbbbacb47e87a03e27de82a954",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.toothpaste-side",
+        "sha256": "5d5889dd28c8d1374d1583ca9e65c4a4366554a6c3f4666a834d430f7723b41e",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.toothpaste-top",
+        "sha256": "cde32dd5a867aa2867ccc7627dc489c49ddd515f6c05790b68d57bebbda56b3e",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.water-front",
+        "sha256": "d7670f0fd3e025f0f669254aca4e6f853609849e0927dfe7ae8539c1841e49ba",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.water-side",
+        "sha256": "f573b8f9c502845c4910752b1010b75eef97d60e85af0094766588e0b87acef0",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.water-top",
+        "sha256": "f08d5451bece5637376271787bb58315e03bbc9376d36c57c9dd15c4c3b59f7a",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.yogurt-front",
+        "sha256": "c452a2e49066c5078a28b130fd27694dbe4e1fe6743a96a54338ec891411cdef",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.yogurt-side",
+        "sha256": "cd6b3f53beef625f48c7cfd7b06e620f00e5061b07f18468159db1f2383cdf7c",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      },
+      {
+        "artifact_id": "preview.yogurt-top",
+        "sha256": "ee6621f8f5022e0d75515c2c184b2511753a9d87db3e148463a86fa397710dd6",
+        "observation": "Broad studio self-shading reveals cylindrical and rounded forms without hiding units. The webpage adds a light grounding shadow; no physical floor is included in the transparent renders."
+      }
+    ]
+  },
+  {
+    "id": "visual.occlusion",
+    "status": "pass",
+    "origin": "Codex root, same-agent review after integrating the user-supplied roll pack, 2026-10-11",
+    "reason": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views.",
+    "evidence": [
+      {
+        "artifact_id": "preview.apples",
+        "sha256": "1fab385d16f0716533f3c6e0c74eba6a9407ebc17f06bcb70f8e23bba7299afc",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.batteries",
+        "sha256": "0f067edce37bc9f322466840dc5614dd8c6acd87883a0f30a052485c5b7b2134",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.brushes",
+        "sha256": "e2779086ce26e1af114ca637721c12600682d105c64112257f141ae1f9269b5b",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.candy",
+        "sha256": "9ed24726b3061796b5dd9bc267ddcf07a75cf54779c5a855ae2125e544b6efa2",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.chips",
+        "sha256": "15fd8ec87e62e58d9e74908c7e314a585254ab4e5b6b1bdbbd9ef2c3e637adc3",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.eggs",
+        "sha256": "452b744480568295dcfde23870d060933877a9c9dd86026b0e5a2cc5e72346db",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.mugs",
+        "sha256": "9a924c2ffccf6282d0caa15a756c45eacefdc5bea611a8a126f29f909653c705",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.pencils",
+        "sha256": "364b6f7355913c64ef89ac94da7fca36fe179ac16581a3fdd8b4d8bb8c548323",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.rolls",
+        "sha256": "15c97b2a10919f8a102b228133d8bf2dd81a926510c6333c90e35d247ab30c57",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.toothpaste",
+        "sha256": "4ccd481a5dcc4b96006677f14bc863ee1028e8937cdfa63f7426554974dbe57e",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.water",
+        "sha256": "5e8b6b2027c0fb5b6a78028781a17799a77bbfefb26929ddbf1ac05dcdd6c37e",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.yogurt",
+        "sha256": "defb396e43007ed2dead81034f40a3ef00e7cb0cf2e22d1b219fffe00a132ad9",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.apples-front",
+        "sha256": "fc0748ef3d4d23799f8cd0a81a4403097d4e418589ec150bab34ef1ed765cef8",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.apples-side",
+        "sha256": "53d14f48ce0eebdf13a63df1510fb5dda78435b91c971176168fdca6a3da4c12",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.apples-top",
+        "sha256": "4f679baab1669592e79c3a2f7b2ab941abf54d5a034446d293a6e7386223b221",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.batteries-front",
+        "sha256": "cb0f5e57113c77525cc903bb83518f6b2b588f300f3b3db890b2b5e528864bd2",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.batteries-side",
+        "sha256": "78dd4b2b2d638f70b86aaec8b0e20f3f974c8fee788c98b52cc9ff1a5d406dc7",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.batteries-top",
+        "sha256": "f518e3fd8f65299a3a8d380657daff2b49ae9578fb94f85c0ae69f56cc742c73",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.brushes-front",
+        "sha256": "78fb4847931bca5efeb5844f9646a939e44494165dafb1d2dc26566d6c1aedc0",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.brushes-side",
+        "sha256": "77191edbbaf546e81c3da8f9d2390f7e0637788b945048ecd0c097694313ff21",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.brushes-top",
+        "sha256": "3229eaf2dd9bf1a636008fa806c4df127bbf5ec9af8b9cb100030611b6c20050",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.candy-front",
+        "sha256": "b16f5926c4e6505e8c64ff4e602d61dabfb639401602fa96b4ac92b5e8b60d0b",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.candy-side",
+        "sha256": "e85e7383ee42ecfd10f4ab17b446640237b89af2c5b53e55cd3fba90fa6c1a53",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.candy-top",
+        "sha256": "bc9c869742215a7c285b4e30175ef9d23931f8e99fb16b8aa6b2cb8ecfa9bee4",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.chips-front",
+        "sha256": "9ad0078295b84436bf54d19d9cfb39c0335de7820a6305747fdcaf52a63c6fdd",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.chips-side",
+        "sha256": "d4c92675a86fdd53aafde7307a537237349e1525cee62d7a1160b100cb316655",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.chips-top",
+        "sha256": "75ad67759742b5a106d6843e1d3f3d9d95168f55a2c7327cc0eced5e6f8225aa",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.eggs-front",
+        "sha256": "7eb2842a0e11ac2735d5ccf747e15529ce2da9ec594646334bbe5b1c5809c81e",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.eggs-side",
+        "sha256": "966551972ffa661bdf7d42fde08c425df28d8d260d5904e6790c1ca3617b95f9",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.eggs-top",
+        "sha256": "9981d68d847f5e80fba9f9ab17843f5cf4eb28d745f002fe900741eda635aba4",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.mugs-front",
+        "sha256": "dc65e910f295629a86f782f288892f788ced31cfec84bc6fe38edf1c8ee5a060",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.mugs-side",
+        "sha256": "496f786451d68c6577237fe817e1dccd2efeef46aedd00e6f31b8785c0ec8170",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.mugs-top",
+        "sha256": "989c9bdac77781f4b5d9c8ac158d256f5b4f93b6d33cf2cc728f5e0444977a6e",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.pencils-front",
+        "sha256": "b8e2db84151f61c9e971e9c8210a91fd51c360bb6e7093a1db82bf99e911d1ab",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.pencils-side",
+        "sha256": "3c16351116a8819c19c2568545ffd050b73e2feffff531d610b9c2e148e598ab",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.pencils-top",
+        "sha256": "7d03a38a8af8c2fedd062e22b82cdf3d5b4357b16268e71fc92591fd29d1901a",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.rolls-front",
+        "sha256": "159d00c40b4b4e42e3de71c2847e07d1ecd8eeeb6464b7c5e15fa3764dcecbba",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.rolls-side",
+        "sha256": "58cd51a24987152f277f54009b8a10ddfd474968e27c28425941d4779a8d3637",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.rolls-top",
+        "sha256": "5000f33d412977d8db3e31be31168c04d4055e6b42ba2889656ad56aec5d8bc5",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.toothpaste-front",
+        "sha256": "a722abb302b3ff493040bcbf20838b1142ddedfbbbacb47e87a03e27de82a954",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.toothpaste-side",
+        "sha256": "5d5889dd28c8d1374d1583ca9e65c4a4366554a6c3f4666a834d430f7723b41e",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.toothpaste-top",
+        "sha256": "cde32dd5a867aa2867ccc7627dc489c49ddd515f6c05790b68d57bebbda56b3e",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.water-front",
+        "sha256": "d7670f0fd3e025f0f669254aca4e6f853609849e0927dfe7ae8539c1841e49ba",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.water-side",
+        "sha256": "f573b8f9c502845c4910752b1010b75eef97d60e85af0094766588e0b87acef0",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.water-top",
+        "sha256": "f08d5451bece5637376271787bb58315e03bbc9376d36c57c9dd15c4c3b59f7a",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.yogurt-front",
+        "sha256": "c452a2e49066c5078a28b130fd27694dbe4e1fe6743a96a54338ec891411cdef",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.yogurt-side",
+        "sha256": "cd6b3f53beef625f48c7cfd7b06e620f00e5061b07f18468159db1f2383cdf7c",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      },
+      {
+        "artifact_id": "preview.yogurt-top",
+        "sha256": "ee6621f8f5022e0d75515c2c184b2511753a9d87db3e148463a86fa397710dd6",
+        "observation": "All units can be counted in main or top views. Ten roll holes, ten battery bodies, ten pouches, ten yogurt lids, ten eggs and ten pencil ends are individually separated; each toothbrush board contains six visible brushes. Some rear items are naturally occluded in front/side views."
+      }
+    ]
+  },
+  {
+    "id": "visual.surface_closeup",
+    "status": "pass",
+    "origin": "Codex root, same-agent review after integrating the user-supplied roll pack, 2026-10-11",
+    "reason": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB.",
+    "evidence": [
+      {
+        "artifact_id": "preview.apples",
+        "sha256": "1fab385d16f0716533f3c6e0c74eba6a9407ebc17f06bcb70f8e23bba7299afc",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.batteries",
+        "sha256": "0f067edce37bc9f322466840dc5614dd8c6acd87883a0f30a052485c5b7b2134",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.brushes",
+        "sha256": "e2779086ce26e1af114ca637721c12600682d105c64112257f141ae1f9269b5b",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.candy",
+        "sha256": "9ed24726b3061796b5dd9bc267ddcf07a75cf54779c5a855ae2125e544b6efa2",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.chips",
+        "sha256": "15fd8ec87e62e58d9e74908c7e314a585254ab4e5b6b1bdbbd9ef2c3e637adc3",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.eggs",
+        "sha256": "452b744480568295dcfde23870d060933877a9c9dd86026b0e5a2cc5e72346db",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.mugs",
+        "sha256": "9a924c2ffccf6282d0caa15a756c45eacefdc5bea611a8a126f29f909653c705",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.pencils",
+        "sha256": "364b6f7355913c64ef89ac94da7fca36fe179ac16581a3fdd8b4d8bb8c548323",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.rolls",
+        "sha256": "15c97b2a10919f8a102b228133d8bf2dd81a926510c6333c90e35d247ab30c57",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.toothpaste",
+        "sha256": "4ccd481a5dcc4b96006677f14bc863ee1028e8937cdfa63f7426554974dbe57e",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.water",
+        "sha256": "5e8b6b2027c0fb5b6a78028781a17799a77bbfefb26929ddbf1ac05dcdd6c37e",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.yogurt",
+        "sha256": "defb396e43007ed2dead81034f40a3ef00e7cb0cf2e22d1b219fffe00a132ad9",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.apples-front",
+        "sha256": "fc0748ef3d4d23799f8cd0a81a4403097d4e418589ec150bab34ef1ed765cef8",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.apples-side",
+        "sha256": "53d14f48ce0eebdf13a63df1510fb5dda78435b91c971176168fdca6a3da4c12",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.apples-top",
+        "sha256": "4f679baab1669592e79c3a2f7b2ab941abf54d5a034446d293a6e7386223b221",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.batteries-front",
+        "sha256": "cb0f5e57113c77525cc903bb83518f6b2b588f300f3b3db890b2b5e528864bd2",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.batteries-side",
+        "sha256": "78dd4b2b2d638f70b86aaec8b0e20f3f974c8fee788c98b52cc9ff1a5d406dc7",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.batteries-top",
+        "sha256": "f518e3fd8f65299a3a8d380657daff2b49ae9578fb94f85c0ae69f56cc742c73",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.brushes-front",
+        "sha256": "78fb4847931bca5efeb5844f9646a939e44494165dafb1d2dc26566d6c1aedc0",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.brushes-side",
+        "sha256": "77191edbbaf546e81c3da8f9d2390f7e0637788b945048ecd0c097694313ff21",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.brushes-top",
+        "sha256": "3229eaf2dd9bf1a636008fa806c4df127bbf5ec9af8b9cb100030611b6c20050",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.candy-front",
+        "sha256": "b16f5926c4e6505e8c64ff4e602d61dabfb639401602fa96b4ac92b5e8b60d0b",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.candy-side",
+        "sha256": "e85e7383ee42ecfd10f4ab17b446640237b89af2c5b53e55cd3fba90fa6c1a53",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.candy-top",
+        "sha256": "bc9c869742215a7c285b4e30175ef9d23931f8e99fb16b8aa6b2cb8ecfa9bee4",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.chips-front",
+        "sha256": "9ad0078295b84436bf54d19d9cfb39c0335de7820a6305747fdcaf52a63c6fdd",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.chips-side",
+        "sha256": "d4c92675a86fdd53aafde7307a537237349e1525cee62d7a1160b100cb316655",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.chips-top",
+        "sha256": "75ad67759742b5a106d6843e1d3f3d9d95168f55a2c7327cc0eced5e6f8225aa",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.eggs-front",
+        "sha256": "7eb2842a0e11ac2735d5ccf747e15529ce2da9ec594646334bbe5b1c5809c81e",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.eggs-side",
+        "sha256": "966551972ffa661bdf7d42fde08c425df28d8d260d5904e6790c1ca3617b95f9",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.eggs-top",
+        "sha256": "9981d68d847f5e80fba9f9ab17843f5cf4eb28d745f002fe900741eda635aba4",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.mugs-front",
+        "sha256": "dc65e910f295629a86f782f288892f788ced31cfec84bc6fe38edf1c8ee5a060",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.mugs-side",
+        "sha256": "496f786451d68c6577237fe817e1dccd2efeef46aedd00e6f31b8785c0ec8170",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.mugs-top",
+        "sha256": "989c9bdac77781f4b5d9c8ac158d256f5b4f93b6d33cf2cc728f5e0444977a6e",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.pencils-front",
+        "sha256": "b8e2db84151f61c9e971e9c8210a91fd51c360bb6e7093a1db82bf99e911d1ab",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.pencils-side",
+        "sha256": "3c16351116a8819c19c2568545ffd050b73e2feffff531d610b9c2e148e598ab",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.pencils-top",
+        "sha256": "7d03a38a8af8c2fedd062e22b82cdf3d5b4357b16268e71fc92591fd29d1901a",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.rolls-front",
+        "sha256": "159d00c40b4b4e42e3de71c2847e07d1ecd8eeeb6464b7c5e15fa3764dcecbba",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.rolls-side",
+        "sha256": "58cd51a24987152f277f54009b8a10ddfd474968e27c28425941d4779a8d3637",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.rolls-top",
+        "sha256": "5000f33d412977d8db3e31be31168c04d4055e6b42ba2889656ad56aec5d8bc5",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.toothpaste-front",
+        "sha256": "a722abb302b3ff493040bcbf20838b1142ddedfbbbacb47e87a03e27de82a954",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.toothpaste-side",
+        "sha256": "5d5889dd28c8d1374d1583ca9e65c4a4366554a6c3f4666a834d430f7723b41e",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.toothpaste-top",
+        "sha256": "cde32dd5a867aa2867ccc7627dc489c49ddd515f6c05790b68d57bebbda56b3e",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.water-front",
+        "sha256": "d7670f0fd3e025f0f669254aca4e6f853609849e0927dfe7ae8539c1841e49ba",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.water-side",
+        "sha256": "f573b8f9c502845c4910752b1010b75eef97d60e85af0094766588e0b87acef0",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.water-top",
+        "sha256": "f08d5451bece5637376271787bb58315e03bbc9376d36c57c9dd15c4c3b59f7a",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.yogurt-front",
+        "sha256": "c452a2e49066c5078a28b130fd27694dbe4e1fe6743a96a54338ec891411cdef",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.yogurt-side",
+        "sha256": "cd6b3f53beef625f48c7cfd7b06e620f00e5061b07f18468159db1f2383cdf7c",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      },
+      {
+        "artifact_id": "preview.yogurt-top",
+        "sha256": "ee6621f8f5022e0d75515c2c184b2511753a9d87db3e148463a86fa397710dd6",
+        "observation": "Inspected 800px main images of revised candy pouches and textured apples, enlarged egg GLB and four diagnostic sheets. No visible cracks or texture seams were observed. Fine procedural micro-bump is preserved in blend and omitted in GLB."
+      }
+    ]
+  },
+  {
+    "id": "license.resource_manifest",
+    "status": "pass",
+    "origin": "Codex root, same-agent review after integrating the user-supplied roll pack, 2026-10-11",
+    "reason": "Other procedural models and texture are task-created. Roll pack is imported from the user-supplied GLB, retained locally in resources/rolls-supplied.glb; its provenance and rights remain those of the supplied asset. Battery, candy, toothbrush, toothpaste, paper rolls, apples, mineral water and two transitions adapt user-provided images, retained in resources/references. Entrance uses user-provided JPG retained in resources. Original pencil input is retained; derived output replaces English. No additional redistribution rights are inferred. Three.js MIT notice included."
+  },
+  {
+    "id": "schematic.simplification",
+    "status": "pass",
+    "origin": "Codex root, same-agent review after integrating the user-supplied roll pack, 2026-10-11",
+    "reason": "Rolls and candy use clear soft bags with end seals; water uses fitted film without projecting sealed fins. Eggs and yogurt retain low trays. Latest supplied roll GLB supersedes the procedural paper model and retains its original wrapper, printing, layer rings and handle. Candy follows two columns of five saturated red pillow packets with approximately 25 mm actual body thickness and a 203 mm outer width including seals, plus a separate blue and yellow Chinese sign. Roll film keeps supplied materials; candy film opacity is 24%; water shrink film is 18%, clear PET walls 30%. Prices are classroom examples; GLB omits procedural micro-bump."
+  },
+  {
+    "id": "teaching.parts",
+    "status": "pass",
+    "origin": "Codex root, same-agent review after integrating the user-supplied roll pack, 2026-10-11",
+    "reason": "Twelve principal product groups and 101 individual visible units are verified from actual principal meshes, with each of two brush boards holding six brushes.",
+    "measured": {
+      "asset_imports": [
+        {
+          "product": "rolls",
+          "status": "pass",
+          "actual_count": 10,
+          "expected_count": 10,
+          "dimensions": [
+            0.6430000066757202,
+            0.12868691980838776,
+            0.23499999940395355
+          ],
+          "finite": true,
+          "embedded_resources": true
+        },
+        {
+          "product": "mugs",
+          "status": "pass",
+          "actual_count": 3,
+          "expected_count": 3,
+          "dimensions": [
+            0.3839999884366989,
+            0.07999999821186066,
+            0.08799999952316284
+          ],
+          "finite": true,
+          "embedded_resources": true
+        },
+        {
+          "product": "toothpaste",
+          "status": "pass",
+          "actual_count": 4,
+          "expected_count": 4,
+          "dimensions": [
+            0.20399999618530273,
+            0.03265000134706497,
+            0.1860000044107437
+          ],
+          "finite": true,
+          "embedded_resources": true
+        },
+        {
+          "product": "brushes",
+          "status": "pass",
+          "actual_count": 12,
+          "expected_count": 12,
+          "dimensions": [
+            0.44200000166893005,
+            0.22499999403953552,
+            0.03399999812245369
+          ],
+          "finite": true,
+          "embedded_resources": true
+        },
+        {
+          "product": "batteries",
+          "status": "pass",
+          "actual_count": 10,
+          "expected_count": 10,
+          "dimensions": [
+            0.14800000190734863,
+            0.2150000035762787,
+            0.027499999850988388
+          ],
+          "finite": true,
+          "embedded_resources": true
+        },
+        {
+          "product": "pencils",
+          "status": "pass",
+          "actual_count": 10,
+          "expected_count": 10,
+          "dimensions": [
+            0.08799999952316284,
+            0.036240002140402794,
+            0.19999998807907104
+          ],
+          "finite": true,
+          "embedded_resources": true
+        },
+        {
+          "product": "water",
+          "status": "pass",
+          "actual_count": 12,
+          "expected_count": 12,
+          "dimensions": [
+            0.31200000643730164,
+            0.23439909517765045,
+            0.1913774088025093
+          ],
+          "finite": true,
+          "embedded_resources": true
+        },
+        {
+          "product": "chips",
+          "status": "pass",
+          "actual_count": 6,
+          "expected_count": 6,
+          "dimensions": [
+            0.25620001554489136,
+            0.1762000024318695,
+            0.22460000216960907
+          ],
+          "finite": true,
+          "embedded_resources": true
+        },
+        {
+          "product": "candy",
+          "status": "pass",
+          "actual_count": 10,
+          "expected_count": 10,
+          "dimensions": [
+            0.203000009059906,
+            0.3946996182203293,
+            0.04638309916481376
+          ],
+          "finite": true,
+          "embedded_resources": true
+        },
+        {
+          "product": "yogurt",
+          "status": "pass",
+          "actual_count": 10,
+          "expected_count": 10,
+          "dimensions": [
+            0.36800000071525574,
+            0.16700001060962677,
+            0.0668799951672554
+          ],
+          "finite": true,
+          "embedded_resources": true
+        },
+        {
+          "product": "eggs",
+          "status": "pass",
+          "actual_count": 10,
+          "expected_count": 10,
+          "dimensions": [
+            0.32099997997283936,
+            0.14500001072883606,
+            0.07000000029802322
+          ],
+          "finite": true,
+          "embedded_resources": true
+        },
+        {
+          "product": "apples",
+          "status": "pass",
+          "actual_count": 4,
+          "expected_count": 4,
+          "dimensions": [
+            0.37262822687625885,
+            0.08304625749588013,
+            0.08649726957082748
+          ],
+          "finite": true,
+          "embedded_resources": true
+        }
+      ],
+      "total_units": 101
+    }
+  },
+  {
+    "id": "teaching.relationships",
+    "status": "pass",
+    "origin": "Codex root, same-agent review after integrating the user-supplied roll pack, 2026-10-11",
+    "reason": "Unit-versus-package relations are stored explicitly. Correctness uses perPackage == 10, not shelf totals; the six correct products are rolls, batteries, pencils, candy, yogurt and eggs. Four behavior/inventory tests passed.",
+    "measured": {
+      "package_relations": [
+        {
+          "id": "rolls",
+          "perPackage": 10,
+          "stock": 1,
+          "countableUnits": 10
+        },
+        {
+          "id": "mugs",
+          "perPackage": 1,
+          "stock": 3,
+          "countableUnits": 3
+        },
+        {
+          "id": "toothpaste",
+          "perPackage": 1,
+          "stock": 4,
+          "countableUnits": 4
+        },
+        {
+          "id": "brushes",
+          "perPackage": 6,
+          "stock": 2,
+          "countableUnits": 12
+        },
+        {
+          "id": "batteries",
+          "perPackage": 10,
+          "stock": 1,
+          "countableUnits": 10
+        },
+        {
+          "id": "pencils",
+          "perPackage": 10,
+          "stock": 1,
+          "countableUnits": 10
+        },
+        {
+          "id": "water",
+          "perPackage": 12,
+          "stock": 1,
+          "countableUnits": 12
+        },
+        {
+          "id": "chips",
+          "perPackage": 1,
+          "stock": 6,
+          "countableUnits": 6
+        },
+        {
+          "id": "candy",
+          "perPackage": 10,
+          "stock": 1,
+          "countableUnits": 10
+        },
+        {
+          "id": "yogurt",
+          "perPackage": 10,
+          "stock": 1,
+          "countableUnits": 10
+        },
+        {
+          "id": "eggs",
+          "perPackage": 10,
+          "stock": 1,
+          "countableUnits": 10
+        },
+        {
+          "id": "apples",
+          "perPackage": 1,
+          "stock": 4,
+          "countableUnits": 4
+        }
+      ],
+      "behavior_tests_passed": 7,
+      "browser_final_stars": 6
+    }
+  },
+  {
+    "id": "visual.reference_fidelity",
+    "status": "pass",
+    "origin": "Codex root, same-agent comparison, 2026-10-11",
+    "reason": "Compared supplied battery, candy, toothbrush, toothpaste, paper, apple, water and both transition images against rebuilt views and actual browser screenshots.",
+    "measured": {
+      "criteria": [
+        {
+          "id": "toothpaste_real",
+          "status": "pass",
+          "observation": "Four tall rectangular cartons retained; print replaced by the later user-supplied red-green carton atlas, superseding the earlier blue reference.",
+          "reference_evidence": [
+            "reference.toothpaste_real"
+          ],
+          "preview_evidence": [
+            "preview.toothpaste"
+          ]
+        },
+        {
+          "id": "toothpaste_atlas",
+          "status": "pass",
+          "observation": "Supplied red-green print and herb illustrations on six faces; Chinese 牙膏 and 草本 glyphs are unmirrored in front, side and top views after correcting opposite-face UV orientation.",
+          "reference_evidence": [
+            "reference.toothpaste_atlas"
+          ],
+          "preview_evidence": [
+            "preview.toothpaste"
+          ]
+        },
+        {
+          "id": "rolls_handle",
+          "status": "pass",
+          "observation": "Supplied model retains its left-end reinforced film flap and two real finger holes. All ten rolls remain countable.",
+          "reference_evidence": [
+            "reference.rolls_handle"
+          ],
+          "preview_evidence": [
+            "preview.rolls-top"
+          ]
+        },
+        {
+          "id": "rolls_real",
+          "status": "pass",
+          "observation": "Supplied GLB retains ten rolls in two rows of five, fine paper layers, hollow cores, individual film and outer clear packaging. Rack view presents all ten ends.",
+          "reference_evidence": [
+            "reference.rolls_real"
+          ],
+          "preview_evidence": [
+            "preview.rolls"
+          ]
+        },
+        {
+          "id": "apple_real",
+          "status": "pass",
+          "observation": "Organic broad shoulders, narrower base, recessed stem, uneven red and yellow pigmentation, small lenticels and serrated veined green leaves. Four individual apples retained; reference watermark is not copied.",
+          "reference_evidence": [
+            "reference.apple_real"
+          ],
+          "preview_evidence": [
+            "preview.apples"
+          ]
+        },
+        {
+          "id": "brush_real",
+          "status": "pass",
+          "observation": "Existing handle bend redirected toward camera in depth rather than left in width, with grips facing the board front and one continuous neck into each head; two unchanged six-brush boards.",
+          "reference_evidence": [
+            "reference.brush_real"
+          ],
+          "preview_evidence": [
+            "preview.brushes"
+          ]
+        },
+        {
+          "id": "water_real",
+          "status": "pass",
+          "observation": "Twelve clear ribbed PET bottles have red caps and red-white labels with Chinese printing. Transparent shrink film fits all bottles without projecting side seals; accepted rack yaw retained.",
+          "reference_evidence": [
+            "reference.water_real"
+          ],
+          "preview_evidence": [
+            "preview.water"
+          ]
+        },
+        {
+          "id": "battery_card",
+          "status": "pass",
+          "observation": "Tall white card with rounded edges, real hanger slot, orange corner and 10节 above the cells.",
+          "reference_evidence": [
+            "reference.battery"
+          ],
+          "preview_evidence": [
+            "preview.batteries-top"
+          ]
+        },
+        {
+          "id": "battery_rows",
+          "status": "pass",
+          "observation": "Exactly two separated rows of five narrow cells; dark bodies and orange upper bands. Main rack shows all ten.",
+          "reference_evidence": [
+            "reference.battery"
+          ],
+          "preview_evidence": [
+            "preview.batteries-top"
+          ]
+        },
+        {
+          "id": "battery_blister",
+          "status": "pass",
+          "observation": "Ten fitted transparent covers surround individual batteries; cell shapes remain countable.",
+          "reference_evidence": [
+            "reference.battery"
+          ],
+          "preview_evidence": [
+            "preview.batteries"
+          ]
+        },
+        {
+          "id": "department_transition",
+          "status": "pass",
+          "observation": "Dark full-page field, centered white 百货区 title and muted Chinese category and task lines.",
+          "reference_evidence": [
+            "reference.department"
+          ],
+          "preview_evidence": [
+            "preview.transition.department"
+          ]
+        },
+        {
+          "id": "food_transition",
+          "status": "pass",
+          "observation": "Dark full-page field, centered white 食品区 title and muted Chinese category and task lines.",
+          "reference_evidence": [
+            "reference.food"
+          ],
+          "preview_evidence": [
+            "preview.transition.food"
+          ]
+        },
+        {
+          "id": "candy_layout",
+          "status": "pass",
+          "observation": "Exactly two columns and five rows of ten separate wide packets, with gaps in both directions.",
+          "reference_evidence": [
+            "reference.candy"
+          ],
+          "preview_evidence": [
+            "preview.candy-top"
+          ]
+        },
+        {
+          "id": "candy_wrappers",
+          "status": "pass",
+          "observation": "Thicker saturated red puffed packets carry yellow Chinese 彩虹糖 titles, small 水果味 captions and multicolour candy illustrations, plus crimped heat seals.",
+          "reference_evidence": [
+            "reference.candy"
+          ],
+          "preview_evidence": [
+            "preview.candy-top"
+          ]
+        },
+        {
+          "id": "candy_sign",
+          "status": "pass",
+          "observation": "Blue separate header sits above the packets; white 彩虹糖 title on the left and yellow round 10小包 badge on the right.",
+          "reference_evidence": [
+            "reference.candy"
+          ],
+          "preview_evidence": [
+            "preview.candy-top"
+          ]
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "artifact_id": "reference.toothpaste_real",
+        "sha256": "3c3d51795df2a28017aee80521088c3a258ddeb37a2923bb595b69eeeb129bf9",
+        "observation": "Four tall rectangular cartons retained; print replaced by the later user-supplied red-green carton atlas, superseding the earlier blue reference."
+      },
+      {
+        "artifact_id": "preview.toothpaste",
+        "sha256": "4ccd481a5dcc4b96006677f14bc863ee1028e8937cdfa63f7426554974dbe57e",
+        "observation": "Supplied red-green print and herb illustrations on six faces; Chinese 牙膏 and 草本 glyphs are unmirrored in front, side and top views after correcting opposite-face UV orientation."
+      },
+      {
+        "artifact_id": "reference.toothpaste_atlas",
+        "sha256": "0dfcd941201bf26f2bbd48e92c1a6aed7e5d1f781153f16edf65a94558985d0c",
+        "observation": "Supplied red-green print and herb illustrations on six faces; Chinese 牙膏 and 草本 glyphs are unmirrored in front, side and top views after correcting opposite-face UV orientation."
+      },
+      {
+        "artifact_id": "reference.rolls_handle",
+        "sha256": "fa1de3fadd0ec626787e876033bf3aa682f15469a6939f70844a0d33aaa076a1",
+        "observation": "Supplied model retains its left-end reinforced film flap and two real finger holes. All ten rolls remain countable."
+      },
+      {
+        "artifact_id": "preview.rolls-top",
+        "sha256": "5000f33d412977d8db3e31be31168c04d4055e6b42ba2889656ad56aec5d8bc5",
+        "observation": "Supplied model retains its left-end reinforced film flap and two real finger holes. All ten rolls remain countable."
+      },
+      {
+        "artifact_id": "reference.rolls_real",
+        "sha256": "1b343c011cb272f3940b53d50b041c099298da2a4b2608285f3fd3527fd7ba8d",
+        "observation": "Supplied GLB retains ten rolls in two rows of five, fine paper layers, hollow cores, individual film and outer clear packaging. Rack view presents all ten ends."
+      },
+      {
+        "artifact_id": "preview.rolls",
+        "sha256": "15c97b2a10919f8a102b228133d8bf2dd81a926510c6333c90e35d247ab30c57",
+        "observation": "Supplied GLB retains ten rolls in two rows of five, fine paper layers, hollow cores, individual film and outer clear packaging. Rack view presents all ten ends."
+      },
+      {
+        "artifact_id": "reference.apple_real",
+        "sha256": "648ab8032b37f08667f3e54719022ab29e437f2445eac397f513c06ee34ed313",
+        "observation": "Organic broad shoulders, narrower base, recessed stem, uneven red and yellow pigmentation, small lenticels and serrated veined green leaves. Four individual apples retained; reference watermark is not copied."
+      },
+      {
+        "artifact_id": "preview.apples",
+        "sha256": "1fab385d16f0716533f3c6e0c74eba6a9407ebc17f06bcb70f8e23bba7299afc",
+        "observation": "Organic broad shoulders, narrower base, recessed stem, uneven red and yellow pigmentation, small lenticels and serrated veined green leaves. Four individual apples retained; reference watermark is not copied."
+      },
+      {
+        "artifact_id": "reference.brush_real",
+        "sha256": "901a90658603edb2246397d29fa3b1b45f3f8896120d808b9afd080800810ecc",
+        "observation": "Existing handle bend redirected toward camera in depth rather than left in width, with grips facing the board front and one continuous neck into each head; two unchanged six-brush boards."
+      },
+      {
+        "artifact_id": "preview.brushes",
+        "sha256": "e2779086ce26e1af114ca637721c12600682d105c64112257f141ae1f9269b5b",
+        "observation": "Existing handle bend redirected toward camera in depth rather than left in width, with grips facing the board front and one continuous neck into each head; two unchanged six-brush boards."
+      },
+      {
+        "artifact_id": "reference.water_real",
+        "sha256": "64178a9d85720c8d261547259c2794873076d0e494851abf9d163f9d370b4c41",
+        "observation": "Twelve clear ribbed PET bottles have red caps and red-white labels with Chinese printing. Transparent shrink film fits all bottles without projecting side seals; accepted rack yaw retained."
+      },
+      {
+        "artifact_id": "preview.water",
+        "sha256": "5e8b6b2027c0fb5b6a78028781a17799a77bbfefb26929ddbf1ac05dcdd6c37e",
+        "observation": "Twelve clear ribbed PET bottles have red caps and red-white labels with Chinese printing. Transparent shrink film fits all bottles without projecting side seals; accepted rack yaw retained."
+      },
+      {
+        "artifact_id": "reference.battery",
+        "sha256": "238cc072ae950e05ada17935afdb1811e3a62d46b6ce2c4857d7048b1b427753",
+        "observation": "Ten fitted transparent covers surround individual batteries; cell shapes remain countable."
+      },
+      {
+        "artifact_id": "preview.batteries-top",
+        "sha256": "f518e3fd8f65299a3a8d380657daff2b49ae9578fb94f85c0ae69f56cc742c73",
+        "observation": "Exactly two separated rows of five narrow cells; dark bodies and orange upper bands. Main rack shows all ten."
+      },
+      {
+        "artifact_id": "preview.batteries",
+        "sha256": "0f067edce37bc9f322466840dc5614dd8c6acd87883a0f30a052485c5b7b2134",
+        "observation": "Ten fitted transparent covers surround individual batteries; cell shapes remain countable."
+      },
+      {
+        "artifact_id": "reference.department",
+        "sha256": "a744d3ca7e851cae97eb77353a9fa184740a2cec44a9411562c062cd23d58d00",
+        "observation": "Dark full-page field, centered white 百货区 title and muted Chinese category and task lines."
+      },
+      {
+        "artifact_id": "preview.transition.department",
+        "sha256": "9db3d0cb8183465a6bea6d1bf04669f2e743dce8d6a5b5256b3683b776b09cd8",
+        "observation": "Dark full-page field, centered white 百货区 title and muted Chinese category and task lines."
+      },
+      {
+        "artifact_id": "reference.food",
+        "sha256": "6f3a6a2c02548a35e5c7408eee2238c61766a79f1565c869373bbccb739ced33",
+        "observation": "Dark full-page field, centered white 食品区 title and muted Chinese category and task lines."
+      },
+      {
+        "artifact_id": "preview.transition.food",
+        "sha256": "8c7322da75ef2d02fa4cb8f1ef737d41f21f58710145d6a0db248703aa7c77bf",
+        "observation": "Dark full-page field, centered white 食品区 title and muted Chinese category and task lines."
+      },
+      {
+        "artifact_id": "reference.candy",
+        "sha256": "c4df3cc65a9facdacb1b1f5d196489791dc6f593691601fb49ec7ed8654b63eb",
+        "observation": "Blue separate header sits above the packets; white 彩虹糖 title on the left and yellow round 10小包 badge on the right."
+      },
+      {
+        "artifact_id": "preview.candy-top",
+        "sha256": "bc9c869742215a7c285b4e30175ef9d23931f8e99fb16b8aa6b2cb8ecfa9bee4",
+        "observation": "Blue separate header sits above the packets; white 彩虹糖 title on the left and yellow round 10小包 badge on the right."
+      }
+    ]
+  }
+]
