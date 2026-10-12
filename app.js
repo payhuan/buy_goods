@@ -88,7 +88,11 @@ async function renderPage() {
   document.querySelector('.hud').hidden = !inArea; document.querySelector('#area-sign').hidden = !inArea;
   document.querySelector('.scene-nav').hidden = !inArea; goods.hidden = !inArea;
   document.querySelector('#fallback-rack').hidden = !inArea; document.querySelector('#fallback-aisle').hidden = inArea;
-  document.querySelector('#zone-title').textContent = game.zone; refreshScore();
+  const title = document.querySelector('#zone-title');
+  const syllables = game.zone === '百货区' ? [['百', 'bǎi'], ['货', 'huò'], ['区', 'qū']] : [['食', 'shí'], ['品', 'pǐn'], ['区', 'qū']];
+  title.setAttribute('aria-label', game.zone);
+  title.innerHTML = syllables.map(([character, pinyin]) => `<span class="zone-syllable"><span class="zone-pinyin" aria-hidden="true">${pinyin}</span><span>${character}</span></span>`).join('');
+  refreshScore();
   if (inArea) renderGoods(); else { goods.replaceChildren(); cards.clear(); }
   if (page === '结束') {
     document.querySelector('#ending-title').textContent = game.stars === 6 ? '通关啦！' : '逛完啦！';
@@ -105,7 +109,7 @@ async function renderPage() {
     for (const { choose } of cards.values()) { choose.classList.remove('fallback-product'); choose.querySelector('img').hidden = true; }
   } catch (_) { /* Continuous shelf fallback remains usable if WebGL or asset loading fails. */ }
 }
-for (const [selector, action] of [['#enter', () => game.enter()], ['#next-page', () => game.next()], ['#previous-page', () => game.back()], ['#replay', () => game.restart()], ['#return-food', () => game.back()]]) {
+for (const [selector, action] of [['#enter', () => game.enter()], ['#next-page', () => game.next()], ['#previous-page', () => game.back()]]) {
   document.querySelector(selector).addEventListener('click', () => { action(); renderPage(); });
 }
 document.querySelector('#sound').addEventListener('click', event => {
@@ -117,7 +121,7 @@ document.querySelector('#fullscreen').addEventListener('click', async () => {
 });
 renderPage();
 (async () => {
-  try { const module = await import('./scene.js?v=20261012-compressed'); scene = await module.createMarketScene(document.querySelector('#scene-stage'), products, layoutGoods); renderPage(); }
+  try { const module = await import('./scene.js?v=20261012-pinyin'); scene = await module.createMarketScene(document.querySelector('#scene-stage'), products, layoutGoods); renderPage(); }
   catch (_) { /* Local file opening also supports the four pages and shelf images. */ }
 })();
 

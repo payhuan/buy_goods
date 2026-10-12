@@ -6,3 +6,5 @@
 
 /* Shelf tickets contain only the item name and price. */
 .product-label{gap:14px;padding:11px 16px;min-width:154px}.label-name{white-space:nowrap}.label-price{white-space:nowrap}
+
+#area-sign h1{display:flex;justify-content:center;gap:.10em;font-size:clamp(28px,min(5.2vw,8vh),76px);line-height:1.05;letter-spacing:0}.zone-syllable{width:1.22em;display:flex;flex-direction:column;align-items:center;gap:.06em}.zone-pinyin{width:100%;text-align:center;font-size:.33em;line-height:1.25;font-weight:700;letter-spacing:0}
