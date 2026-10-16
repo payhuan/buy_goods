@@ -5,6 +5,35 @@ const createGame = require('../game.js');
 const fs = require('node:fs');
 const path = require('node:path');
 
+test('sound stays silent until enabled and becomes silent again when disabled', () => {
+  const vm = require('node:vm');
+  const app = fs.readFileSync(path.join(__dirname, '../app.js'), 'utf8');
+  const button = { textContent: '', attributes: {}, setAttribute(k, v) { this.attributes[k] = v; }, addEventListener(_, handler) { this.click = handler; } };
+  let starts = 0;
+  class AudioContext {
+    currentTime = 0;
+    resume() {}
+    createOscillator() { return { frequency: {}, connect() {}, start() { starts++; }, stop() {} }; }
+    createGain() { return { gain: { setValueAtTime() {}, linearRampToValueAtTime() {}, exponentialRampToValueAtTime() {} }, connect() {} }; }
+  }
+  const context = vm.createContext({ marketAssetUrl: value => value, MARKET_PRODUCTS: [], createMarketGame: () => ({}), document: { querySelector: () => ({ style: {} }) }, window: { AudioContext } });
+  vm.runInContext(app.slice(0, app.indexOf('function refreshScore()')), context);
+  vm.runInContext('sound(false); sound(true);', context);
+  assert.equal(starts, 0);
+  context.document.querySelector = () => button;
+  vm.runInContext(app.slice(app.indexOf("document.querySelector('#sound').addEventListener"), app.indexOf("document.querySelector('#fullscreen').addEventListener")), context);
+  button.click({ currentTarget: button });
+  assert.equal(button.attributes['aria-pressed'], 'true');
+  assert.equal(button.textContent, '♫ 音效开');
+  vm.runInContext('sound(false);', context);
+  assert.equal(starts, 1);
+  button.click({ currentTarget: button });
+  assert.equal(button.attributes['aria-pressed'], 'false');
+  assert.equal(button.textContent, '♫ 音效关');
+  vm.runInContext('sound(false); sound(true);', context);
+  assert.equal(starts, 1);
+});
+
 test('four pages omit introductions and allow incomplete progress and replay', () => {
   const game = createGame(products);
   assert.equal(game.page, '入口');

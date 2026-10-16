@@ -4,7 +4,7 @@ const game = createMarketGame(products);
 const goods = document.querySelector('#goods');
 const cards = new Map();
 document.querySelector('#entrance-background').style.backgroundImage = `url("${marketAssetUrl('assets/images/entrance-background.jpg')}")`;
-let audio, muted = false, scene, sceneRequest = 0, pageTimer;
+let audio, muted = true, scene, sceneRequest = 0, pageTimer;
 
 function sound(correct) {
   if (muted) return;
