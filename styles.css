@@ -11,3 +11,5 @@
 
 /* Half-size tickets end at the projected lower edge of their own shelf. */
 .product-label{transform-origin:top center;transform:translate(-50%,-50%) scale(.5)}
+
+.product-label .label-name,.product-label .label-price{transform:scale(1.18);transform-origin:center}
