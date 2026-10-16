@@ -112,10 +112,6 @@ async function renderPage() {
 for (const [selector, action] of [['#enter', () => game.enter()], ['#next-page', () => game.next()], ['#previous-page', () => game.back()]]) {
   document.querySelector(selector).addEventListener('click', () => { action(); renderPage(); });
 }
-document.querySelector('#sound').addEventListener('click', event => {
-  muted = !muted; event.currentTarget.textContent = muted ? '♫ 音效关' : '♫ 音效开';
-  event.currentTarget.setAttribute('aria-pressed', String(!muted)); event.currentTarget.setAttribute('aria-label', muted ? '打开音效' : '关闭音效');
-});
 document.querySelector('#fullscreen').addEventListener('click', async () => {
   try { if (document.fullscreenElement) await document.exitFullscreen(); else await document.documentElement.requestFullscreen(); } catch (_) { }
 });
