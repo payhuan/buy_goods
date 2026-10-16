@@ -10,6 +10,6 @@
 #area-sign h1{display:flex;justify-content:center;gap:.10em;font-size:clamp(28px,min(5.2vw,8vh),76px);line-height:1.05;letter-spacing:0}.zone-syllable{width:1.22em;display:flex;flex-direction:column;align-items:center;gap:.06em}.zone-pinyin{width:100%;text-align:center;font-size:.33em;line-height:1.25;font-weight:700;letter-spacing:0}
 
 /* Tickets end at the projected lower edge of their own shelf. */
-.product-label{transform-origin:top center;transform:translate(-50%,-55%) scale(.55)}
+.product-label{transform-origin:top center;transform:translate(-50%,-66%) scale(.66)}
 
 .product-label .label-name,.product-label .label-price{transform:scale(1.18);transform-origin:center}
