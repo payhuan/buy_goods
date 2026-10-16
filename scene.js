@@ -106,7 +106,7 @@ export async function createMarketScene(container, products, onLayout) {
       const left = Math.min(...corners.map(p => p.x)), right = Math.max(...corners.map(p => p.x));
       const top = Math.min(...corners.map(p => p.y)), bottom = Math.max(...corners.map(p => p.y));
       result.push({ id, left, top, width: right - left, height: bottom - top,
-        label: project(new THREE.Vector3(entry.x, entry.y - .21, .99)) });
+        label: project(new THREE.Vector3(entry.x, entry.y - .09 - .15 / 2, .93 + .085 / 2)) });
     }
     onLayout(result);
   }

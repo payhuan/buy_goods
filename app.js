@@ -55,7 +55,7 @@ function renderGoods() {
     Object.assign(choose.style, { left: `${17 + index % 3 * 24}%`, top: `${index < 3 ? 23 : 55}%`, width: '20%', height: '29%' });
     const label = document.createElement('div'); label.className = 'product-label'; label.dataset.id = id;
     label.innerHTML = `<div class="label-name">${item.name}</div><div class="label-price">¥${item.price.toFixed(2)}</div>`;
-    label.style.left = `${27 + index % 3 * 24}%`; label.style.top = index < 3 ? 'calc(52.72% + 24px)' : 'calc(86% + 4px)';
+    label.style.left = `${27 + index % 3 * 24}%`; label.style.top = index < 3 ? 'calc(52.72% + 20px)' : '86%';
     const badge = document.createElement('span'); badge.className = 'earned-star'; badge.textContent = '★';
     badge.setAttribute('aria-label', `${item.name}已获得星星`); badge.hidden = !game.hasStar(id);
     badge.style.left = `${35 + index % 3 * 24}%`; badge.style.top = `${index < 3 ? 26 : 58}%`;
@@ -121,7 +121,7 @@ document.querySelector('#fullscreen').addEventListener('click', async () => {
 });
 renderPage();
 (async () => {
-  try { const module = await import('./scene.js?v=20261016-small-labels'); scene = await module.createMarketScene(document.querySelector('#scene-stage'), products, layoutGoods); renderPage(); }
+  try { const module = await import('./scene.js?v=20261016-aligned-labels'); scene = await module.createMarketScene(document.querySelector('#scene-stage'), products, layoutGoods); renderPage(); }
   catch (_) { /* Local file opening also supports the four pages and shelf images. */ }
 })();
 
